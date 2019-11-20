@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2019.11.20)  20 NOV 2019 19:08
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2019.11.20)  21 NOV 2019 04:51
 entering extended mode
-**c:/Users/lenovo/Documents/Academic/Game_theory/Thesis/system_design.tex
-(c:/Users/lenovo/Documents/Academic/Game_theory/Thesis/system_design.tex
+**c:/Users/lenovo/Documents/Academic/Game_theory/Thesis/dual-channel.tex
+(c:/Users/lenovo/Documents/Academic/Game_theory/Thesis/dual-channel.tex
 LaTeX2e <2019-10-01> patch level 3
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
 Document Class: article 2019/10/25 v1.4k Standard LaTeX document class
@@ -1242,8 +1242,9 @@ File: tikzlibrarychains.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 (C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz/
 libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-)) (system_design.aux)
-\openout1 = `system_design.aux'.
+))
+No file dual-channel.aux.
+\openout1 = `dual-channel.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
@@ -1267,7 +1268,6 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Trying to load font information for T1+ppl on input line 41
 .
-
 ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\t1ppl.fd"
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
@@ -1355,10 +1355,12 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 41.
 LaTeX Info: Redefining \pageref on input line 41.
 LaTeX Info: Redefining \nameref on input line 41.
-
-(system_design.out) (system_design.out)
 \@outlinefile=\write4
-\openout4 = `system_design.out'.
+\openout4 = `dual-channel.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 LaTeX Info: Redefining \microtypecontext on input line 41.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -1366,7 +1368,6 @@ Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
-
 (C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/microtype\mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
@@ -1879,19 +1880,99 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/SimSun(0)/bx/n/12.045'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10.53937> not available
-(Font)              Font shape `T1/ppl/b/it' tried instead on input line 45.
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 46.
+
+LaTeX Warning: Citation `2016Wang' on page 1 undefined on input line 53.
+
+
+LaTeX Warning: Citation `2017Zhao' on page 1 undefined on input line 53.
+
+
+LaTeX Warning: Citation `2018Xie' on page 1 undefined on input line 53.
+
+
+LaTeX Warning: Citation `2018Arshad' on page 1 undefined on input line 53.
+
+
+LaTeX Warning: Citation `2019Pathak' on page 1 undefined on input line 53.
+
+
+LaTeX Warning: Citation `2019Giri' on page 1 undefined on input line 53.
+
+
+LaTeX Warning: Citation `2019Hosseini-Motlagh' on page 1 undefined on input lin
+e 53.
+
+
+LaTeX Warning: Citation `2009Wang' on page 1 undefined on input line 53.
+
+
+LaTeX Warning: Citation `2016Li' on page 1 undefined on input line 53.
+
+
+LaTeX Warning: Citation `2018Wang' on page 1 undefined on input line 53.
+
+
+LaTeX Warning: Citation `2019Dai' on page 1 undefined on input line 53.
+
+
+LaTeX Warning: Citation `2017Tang' on page 1 undefined on input line 54.
+
+
+LaTeX Warning: Citation `2018Zhang' on page 1 undefined on input line 54.
+
+
+LaTeX Warning: Citation `2015Zhang' on page 1 undefined on input line 54.
+
+
+LaTeX Warning: Citation `2018Huang' on page 1 undefined on input line 54.
+
+
+LaTeX Warning: Citation `2018Qiu-Xiang' on page 1 undefined on input line 54.
+
+
+LaTeX Warning: Citation `2019Qiu-Xiang1' on page 1 undefined on input line 54.
+
+
+LaTeX Warning: Citation `2019Qiu-Xiang2' on page 1 undefined on input line 54.
+
 [1
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
- (system_design.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 55.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
-Package rerunfilecheck Info: File `system_design.out' has not changed.
-(rerunfilecheck)             Checksum: 60A066DEB5EB7BD248E9577C65720FF3.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `TU/SimSun(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textemdash ' is missing
+(microtype)             in font `TU/SimSun(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteleft ' is missing
+(microtype)             in font `TU/SimSun(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquoteright ' is missing
+(microtype)             in font `TU/SimSun(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblleft ' is missing
+(microtype)             in font `TU/SimSun(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textquotedblright ' is missing
+(microtype)             in font `TU/SimSun(0)/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+ [2] [3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
+ (dual-channel.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 85.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
 
+
+Package rerunfilecheck Warning: File `dual-channel.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `dual-channel.out':
+(rerunfilecheck)             Before: 
+(rerunfilecheck)             After:  7EEED9188182E05B7D93BF85CCDECB5E.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
@@ -1899,15 +1980,21 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
  ) 
 Here is how much of TeX's memory you used:
- 40770 strings out of 427240
- 843018 string characters out of 3145703
- 1059162 words of memory out of 3000000
- 44693 multiletter control sequences out of 15000+200000
- 552598 words of font info for 76 fonts, out of 3000000 for 9000
+ 40955 strings out of 427240
+ 854798 string characters out of 3145703
+ 1066892 words of memory out of 3000000
+ 44883 multiletter control sequences out of 15000+200000
+ 553537 words of font info for 78 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,8n,71p,481b,429s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,11n,71p,902b,523s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on system_design.pdf (1 page).
+Output written on dual-channel.pdf (3 pages).
