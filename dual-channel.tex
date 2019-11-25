@@ -70,17 +70,52 @@
     D_m=\alpha-\beta p+\lambda_m\theta
 \end{equation}
 \par 其中$\lambda_r, \lambda_m$分别度量了消费者对不同渠道相同绿色产品的不同认同度。
-\par \textbf{基本假设二：}我们考虑政府对拥有不同$\theta$的商品进行价格补贴。由于方程的线性性质，该影响可以被看作是在消费者角度，通过价格优势形成的额外需求，从而可被统一归因为系数$\lambda$的影响。
-\par \textbf{基本假设三：}我们假设制造商制造绿色商品的额外成本与$\frac{\theta^2}{2}$相关，系数$\eta$。制造商批发给零售商的价格$w$低于售价$p$，高于其基础成本$c$。则二者的收益（效用）可被表示为：
+\par \textbf{基本假设二：}我们考虑政府对拥有不同$\theta$的商品进行价格补贴$\tau$。由于方程的线性性质，该影响可以被看作是在消费者角度，通过价格优势形成的额外需求，从而可被统一归因为系数$\lambda$的影响，即：
 \begin{equation}
-    \pi_m=(w-c)(\alpha-\beta p+\lambda_r\theta)+(p-c)(\alpha-\beta p+\lambda_m\theta)-\eta\frac{\theta^2}{2}
+    D_r=\alpha-\beta (p-\tau\theta)+\lambda_r\theta=\alpha-\beta p+(\lambda_r+\tau)\theta
 \end{equation}
 \begin{equation}
-    \pi_r=(p-w)(\alpha-\beta p+\lambda_r\theta)
+    D_m=\alpha-\beta (p-\tau\theta)+\lambda_m\theta=\alpha-\beta p+(\lambda_m+\tau)\theta
+\end{equation}
+\par \textbf{基本假设三：}我们假设制造商制造绿色商品的额外成本与$\frac{\theta^2}{2}$相关，系数$\eta$。制造商批发给零售商的价格$w$低于售价$p$，高于其基础成本$c$。则二者的收益（效用）可被表示为：
+\begin{equation}
+    U_m(p,w,\theta)=\pi_m=(w-c)(\alpha-\beta p+\lambda_r\theta)+(p-c)(\alpha-\beta p+\lambda_m\theta)-\eta\frac{\theta^2}{2}
+\end{equation}
+\begin{equation}
+    U_r(p,w,\theta)=\pi_r=(p-w)(\alpha-\beta p+\lambda_r\theta)
 \end{equation}
 \par \textbf{基本假设四：}基于Stackelberg博弈模型，该供应链的批发价格$w$以及商品的绿色程度$\theta$先由供应商确定。其后，零售商通过调整销售价格来达到自己利益的最大化，此时基于假设一，直销渠道价格必须跟随。同时，政府可以通过调控价格补贴参数$\lambda$和成本系数$\eta$来调控市场。
 \section{均衡求解}
-\par 在基于Stackelberg假设下，供应商首先做出反应，供应商可以同时调整批发价格$w$和绿色程度$\theta$来使得自己的利益最大化。
+\par 在基于Stackelberg假设下，供应商首先做出反应，供应商可以同时调整批发价格$w$和绿色程度$\theta$来使得自己的利益最大化。在给定的市场价格$p$的情况下，供应商的边际效用（效用函数的梯度）为：
+\begin{equation}
+    \frac{\partial U_m}{\partial w}(w;p,\theta)=\alpha-\beta p+\lambda_r\theta
+\end{equation}
+\begin{equation}
+    \frac{\partial U_m}{\partial \theta}(\theta;p,w)=(w-c)\lambda_r+(p-c)\lambda_m-\eta\theta
+\end{equation}
+\par 同理可得零售商对于供应商给出的$w,\theta$做出反应，调整市场价格，其边际效益为：
+\begin{equation}
+    \frac{\partial U_m}{\partial p}(p;w,\theta)=\alpha-\beta (2p-w)+\lambda_r\theta
+\end{equation}
+\par 在实际博弈场景下，由于有限理性的约束，博弈双方只能在当前状态下做出能力范围内的调整，是的自己的收益向更优的方向发展。此时，假设博弈目标$p, w, \theta$相对应的每次调整能力固定为$k_p, k_w, k_\theta$，则可构建动态博弈模型，即时间离散的动力系统：
+\begin{equation}  
+    \left\{  
+        \begin{array}{lr}
+            w(t+1)=w(t)+k_ww(t)[\alpha-\beta p(t)+\lambda_r\theta(t)]               \\  
+            p(t+1)=p(t)+k_pp(t)[\alpha-2\beta p(t)+\lambda_r\theta(t)+\beta w(t)]   \\  
+            \theta(t+1)=\theta(t)+k_\theta\theta(t)[\lambda_rw(t)+\lambda_mp(t)-\eta\theta(t)-c(\lambda_r+\lambda_m)]
+        \end{array}  
+    \right.
+\end{equation}  
+\par 对于Stackelberg博弈，零售商只能被动的接受厂商事先设定的$w, \theta$，于是对于零售商，其定价的均衡解为边际效用为零时：
+\begin{equation}
+    p^*(w,\theta)=\frac{\alpha+\lambda_r\theta+\beta w}{2\beta}
+\end{equation}
+\par 此时的厂商的效益最大化，可看作厂商内部的最优化问题，因为市场价格与自身生产的关系已知，将式（11）带入式（5）得到到厂商效益：
+\begin{equation}
+    U_m^*(w,\theta)=\frac{1}{2}(w-c)(\alpha+\lambda_r\theta-\beta w)+\frac{1}{2}(\alpha+2\lambda_m\theta-\lambda_r\theta-\beta w)(\frac{\alpha+\lambda_r\theta+\beta w}{2\beta})-\eta\frac{\theta^2}{2}
+\end{equation}
+
 \section{稳定性的数值分析}
 \par
 \section{结论}
