@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2019.11.25)  25 NOV 2019 19:53
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2019.11.25)  25 NOV 2019 21:22
 entering extended mode
 **c:/Users/as/Documents/wjd/Game_theory/tex/dual-channel.tex
 (c:/Users/as/Documents/wjd/Game_theory/tex/dual-channel.tex
@@ -1956,29 +1956,29 @@ Package microtype Info: Character `textquotedblright ' is missing
 (microtype)             in font `TU/SimSun(0)/m/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
  [2] [3]
-Underfull \hbox (badness 6157) in paragraph at lines 88--89
+Underfull \hbox (badness 6157) in paragraph at lines 105--106
 []\T1/ppl/m/n/10.53937 Mohammadreza Sinayi, Morteza Rasti-Barzoki, A game the-o
 -retic ap-proach for pric-
  []
 
 
-Underfull \hbox (badness 2020) in paragraph at lines 88--89
+Underfull \hbox (badness 2020) in paragraph at lines 105--106
 \T1/ppl/m/n/10.53937 ing, green-ing, and so-cial wel-fare poli-cies in a sup-pl
 y chain with gov-ern-ment in-ter-ven-
  []
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 88--89
+Underfull \hbox (badness 2318) in paragraph at lines 105--106
 \T1/ppl/m/n/10.53937 tion, \T1/ppl/m/it/10.53937 Jour-nal of Cleaner Pro-duc-ti
 on\T1/ppl/m/n/10.53937 , Vol-ume 196, 2018, Pages 1443-1458, ISSN 0959-6526,
  []
 
 [4] [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
  (dual-channel.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 99.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 116.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
 Package rerunfilecheck Info: File `dual-channel.out' has not changed.
 (rerunfilecheck)             Checksum: 609FE29F6309CFD69C8BE8578E5AFBAE.
 
@@ -1989,15 +1989,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 99.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
  ) 
 Here is how much of TeX's memory you used:
  41000 strings out of 427240
  857682 string characters out of 3142049
- 1071819 words of memory out of 3000000
+ 1072819 words of memory out of 3000000
  44918 multiletter control sequences out of 15000+200000
  553794 words of font info for 79 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,11n,71p,890b,532s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,12n,71p,890b,530s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on dual-channel.pdf (5 pages).
