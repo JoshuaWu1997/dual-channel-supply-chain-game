@@ -78,10 +78,10 @@
     D_m=\alpha-\beta (p-\tau\theta)+\lambda_m\theta=\alpha-\beta p+(\lambda_m+\tau)\theta
 \end{equation}
 \par \textbf{基本假设三：}我们假设制造商制造绿色商品的额外成本与$\frac{\theta^2}{2}$相关，系数$\eta$。制造商批发给零售商的价格$w$低于售价$p$，高于其基础成本$c$。则二者的收益（效用）可被表示为\cite{2012Ghosh}\cite{2016Li}：
-\begin{equation}
+\begin{equation}\label{U_m}
     U_m(p,w,\theta)=\pi_m=(w-c)(\alpha-\beta p+\lambda_r\theta)+(p-c)(\alpha-\beta p+\lambda_m\theta)-\eta\frac{\theta^2}{2}
 \end{equation}
-\begin{equation}
+\begin{equation}\label{U_r}
     U_r(p,w,\theta)=\pi_r=(p-w)(\alpha-\beta p+\lambda_r\theta)
 \end{equation}
 \par \textbf{基本假设四：}基于Stackelberg博弈模型，该供应链的批发价格$w$以及商品的绿色程度$\theta$先由供应商确定。其后，零售商通过调整销售价格来达到自己利益的最大化\cite{2009Wang}，此时基于假设一，直销渠道价格必须跟随。同时，政府可以通过调控价格补贴参数$\lambda$和成本系数$\eta$来调控市场。
@@ -107,18 +107,29 @@
         \end{array}  
     \right.
 \end{equation}  
-\par 对于Stackelberg博弈，零售商只能被动的接受厂商事先设定的$w, \theta$，于是对于零售商，其定价的均衡解为边际效用为零时：
-\begin{equation}
+\par 在Stackelberg博弈中，零售商只能被动的接受厂商事先设定的$w, \theta$，之后对于自己的调控的参数$p$做最优化的选择。同时厂商需要在已知零售商做出的零售价决定后，调整自己生产的参数 $\theta$和批发价$w$来使得自己利润最优化。所以，以下我们站在双方的角度，分别求解。
+\subsection{厂商的角度}
+\par 厂商需要在零售商确定零售价$p$的前提下，对自我的效用最优化，而零售价则是由零售商效用最大化决定的，即：
+\begin{equation}\label{p_star}
     p^*(w,\theta)=\frac{\alpha+\lambda_r\theta+\beta w}{2\beta}
 \end{equation}
-\par 此时的厂商的效益最大化，可看作厂商内部的最优化问题，因为市场价格与自身生产的关系已知，将式（11）带入式（5）得到到厂商效益：
+\par 此时的厂商的效益最大化，可看作厂商内部的最优化问题，因为市场价格与自身生产的关系已知，将式（\ref{p_star}）带入式（\ref{U_m}）得到到厂商效益：
 \begin{equation}
     U_m^*(w,\theta)=\frac{1}{2}(w-c)(\alpha+\lambda_r\theta-\beta w)+\frac{1}{2}(\alpha+2\lambda_m\theta-\lambda_r\theta-\beta w)(\frac{\alpha+\lambda_r\theta+\beta w}{2\beta}-c)-\eta\frac{\theta^2}{2}
 \end{equation}
+\subsection{经销商的角度}
+\par 经销商需要在厂商确定批发价$w$和绿色等级$\theta$的前提下，对自我的效用最优化，而这二者则是由厂商商效用最大化决定的，即：
+\begin{equation}\label{t_star}
+    \theta^*=\frac{\beta p-\alpha}{\lambda_r}
+\end{equation}
+\begin{equation}\label{w_star}
+    w^*=\frac{\beta\eta-\lambda_r\lambda_m}{\lambda_r^2}p-\frac{\alpha\eta-\lambda_r\lambda_m c}{\lambda_r^2}-c
+\end{equation}
+\par 此时的经销商的效益最大化，可看作其自身的最优化问题，将式（\ref{t_star}）（\ref{w_star}）带入式（\ref{U_r}）得到到经销商效益：
 \section{稳定性的数值分析}
 \par 数值分析模拟动力系统演化模式是一种非常直观有效的工具。在本文所描述的系统中，我们重点关注外部影响，包括政府对绿色原料的补贴（$\eta$），以及对绿色产品的支持力度（$\lambda_r, \lambda_m$），对双方博弈路径的影响，以及其中可能产生的混沌现象。而我们研究的目标即为双方的博弈目标：批发价$w$，零售价$p$和绿色等级$\theta$。对动力系统混沌性的描述，我们采用了文献中普遍采用的二维分岔图，以及Lyapunov指数\cite{2017Tang}\cite{2018Zhang}\cite{2015Zhang}\cite{2018Huang}。除上述研究因素以外，我们不失一般性的对余下的参数预先赋值，简化模型计算成本，同时提出以下假设：
 \par \textbf{基本假设五：}在以下的模拟计算中，我们假设$\alpha=3, \beta=1, c=1$。我们认为绿色产品在直销渠道的吸引力较弱于经销渠道，假设这种差异为一个较小的常数（否则二者竞争差异过大，系统在很早的时候就会发生崩溃），即$\lambda_r=\lambda_m+d$，通过实验结果我们取$d=0.12$较为适中。
-\par 不同于现有论文基于Matlab计算的研究成果，我们设计开源了基于CUDA并发的数值模拟工具chaos-analysis (github.com/JoshuaWu1997/chaos-analysis.git)。基于该模拟过程高度相似的简单迭代，以及所需的样本数量庞大的特性，我们设计了利用GPU硬件的并发求解算法。该算法适用于广泛的多变量动力系统问题中，且对表达式的要求较低，可以扩展到大量复杂的问题中。以下的实验，我们模拟的规模达到了对参数区间进行1000次的划分，每个分割点进行20000-40000次随机初值的实验，每次实验进行1000次的迭代，保证实验能完整覆盖样本空间，同时迭代到均衡点。
+\par 不同于现有论文基于Matlab计算的研究成果，我们设计开源了基于CUDA并发的数值模拟工具chaos-analysis (github.com/JoshuaWu1997/chaos-analysis.git)。基于该模拟过程高度相似的简单迭代，以及所需的样本数量庞大的特性，我们设计了利用GPU硬件的并发求解算法。该算法适用于广泛的多变量动力系统问题中，且对表达式的要求较低，可以扩展到大量复杂的问题中。以下的实验，我们模拟的规模达到了对参数区间进行1000次的划分，每个分割点进行20000-40000次随机初值的实验，每次实验进行3000次的迭代，保证实验能完整覆盖样本空间，同时迭代到均衡点。
 \par 我们同样也采用模拟的方式完成Lyapunov指数的计算。
 \par 基于以上的数值分析算法，我们对前文的模型进行以下几个角度的讨论和分析，同时结合实际现象和经济学知识对所发现的数学规律进行解释，从而对于一系列现实问题提出一种角度的诠释。
 \subsection{讨论一：$k_w=k_p$情形下系统对$\lambda$的反馈}
@@ -139,7 +150,24 @@
     \label{Hopf_Lyapunov_2_1}
 \end{figure}
 \par 从图中我们可以总结出与讨论一相类似的结论，绿色成本系数$\eta$对价格博弈的本质性影响与系数$\lambda$相似，然而影响力更加强烈，表现在$\theta$的变化率较大。综合讨论一，我们可以知道，对于政府而言，无论是价格补贴手段（增大$\lambda$）还是生产补贴（降低$\eta$），从本文模型模拟结果来看，都存在使得系统复杂度增大，直至超过某一限度使得系统陷入混沌，即市场进入无序竞争的模式的影响。从另一角度观察，这一类的补贴手段有助于促进产业链总体向绿色的方向发展。$\delta$邻域突变现象出现的双方竞争，在许多情形下形成现实意义中的价格战，即均衡点远低于原先水平，然而通过一个狭小的$\delta$邻域后恢复。该点发生的现象，可以作为解释所谓“O2O线上线下”价格战的机理之一。同时，同质与本文所讨论的所谓绿色供应链模型，许多创新型产品，特别是依赖于产品附加值的商品线上线下供应链所面临的调整，也可被本文所提出的解释模型所部分解答。
-\subsection{讨论三：$k_w>k_r$情形下系统对$\lambda, \eta$的反馈}
+\subsection{讨论三：$k_w\neq k_r$情形下系统对$\lambda, \eta$的反馈}
+\par 由讨论一和讨论二已知在博弈双方对价格的调控能力相同时，厂商具有绝对的优势取代其代理商。然而，在现实情境下，由于经销商更加贴近顾客，且其固有成本较低，导致其更加有能力快速调整价格策略。在讨论三中，我们考虑以下假设：
+\par \textbf{基本假设六：}假设经销商调整市场价格的能力大于厂商调整批发价的能力$(k_w, k_p, k_\theta)=(0.15,0.35,0.1)$。
+\par 在此假设下，我们首先固定$\eta=0.2$，得出$\lambda\in(0.01,0.1)$的分岔图和Lyapunov指数图\ref{Hopf_Lyapunov_3_1}：
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=16.5cm]{Hopf_Lyapunov_3_1.png}
+    \caption{$(k_w,k_p,k_\eta;\eta,d)=(0.2,0.2,0.1,0.1,0.12)$对$\lambda$的分岔图和Lyapunov指数图}
+    \label{Hopf_Lyapunov_3_1}
+\end{figure}
+\par 同时在$\lambda=0.04$固定时，我们得出$\eta\in(0.1, 0.5)$时的分岔图和Lyapunov指数图\ref{Hopf_Lyapunov_3_2}：
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=16.5cm]{Hopf_Lyapunov_3_2.png}
+    \caption{$(k_w,k_p,k_\lambda;\eta,d)=(0.2,0.2,0.1,0.04,0.12)$对$\eta$的分岔图和Lyapunov指数图}
+    \label{Hopf_Lyapunov_3_2}
+\end{figure}
+\par 对比二者结果，我们发现，在绿色供应链初期，厂商依然垄断着市场，令零售商理论上失去了生存空间。然而，当产业链的绿色化程度逐渐加大，厂商由于承担着生产该类产品的职责，即需要投入更多的固定成本，这使得厂商实际上议价的能力减弱。图\ref{Hopf_Lyapunov_1_1}中$\lambda=0.2$，图\ref{Hopf_Lyapunov_3_2}中$\eta=0.28$这两点都出现分岔，并且分岔之后市场价高出批发价，对于零售商来说增加了利润空间。然而，此时也正是系统混沌性骤升的时刻。从Lyapunov指数图中分析，零售商所依赖的市场价格$p$的Lyapunov指数持续增加，且大于批发价格$w$。这说明了，虽然零售商此后有利可图，但是其实际风险却大于厂商。
 \section{结论}
 \par
 
