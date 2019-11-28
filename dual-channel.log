@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2019.11.23)  28 NOV 2019 21:45
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2019.11.23)  28 NOV 2019 22:55
 entering extended mode
 **c:/Users/Xing/Documents/wjd/Game_theory/dual-channel/dual-channel.tex
 (c:/Users/Xing/Documents/wjd/Game_theory/dual-channel/dual-channel.tex
@@ -1835,17 +1835,24 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10.53937> not available
 (Font)              Font shape `T1/ppl/b/it' tried instead on input line 46.
-[1
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
 
 
 ]
 LaTeX Font Info:    Trying to load font information for OMS+ppl on input line 5
 8.
- ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\omsppl.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\omsppl.fd"
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.53937> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 Package microtype Info: Character `textendash ' is missing
 (microtype)             in font `TU/SimSun(0)/m/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1864,7 +1871,8 @@ Package microtype Info: Character `textquotedblleft ' is missing
 Package microtype Info: Character `textquotedblright ' is missing
 (microtype)             in font `TU/SimSun(0)/m/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
- [2] [3] [4]
+ [2]
+[3] [4] [5]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 161.
@@ -1895,7 +1903,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 File: Hopf_Lyapunov_1_1.png Graphic file (type bmp)
 <Hopf_Lyapunov_1_1.png>
-[5]
+[6]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 170.
@@ -1926,10 +1934,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 File: Hopf_Lyapunov_2_1.png Graphic file (type bmp)
 <Hopf_Lyapunov_2_1.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 179.
@@ -1967,6 +1971,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 179.
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
 Underfull \hbox (badness 1648) in paragraph at lines 181--182
 []\TU/SimSun(0)/bx/n/10.53937 基 本 假 设 六：|  \TU/SimSun(0)/m/n/10.53937 假 设 经 销 商
  调 整 市 场 价 格 的 能 力 大 于 厂 商 调 整 批 发 价 的 能 力 $\OT1/zplm/m/n/10.53937 (\OML/zplm/m
@@ -1976,13 +1983,8 @@ Underfull \hbox (badness 1648) in paragraph at lines 181--182
 
 File: Hopf_Lyapunov_3_1.png Graphic file (type bmp)
 <Hopf_Lyapunov_3_1.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
 File: Hopf_Lyapunov_3_2.png Graphic file (type bmp)
 <Hopf_Lyapunov_3_2.png>
-
 [8] [9]
 Underfull \hbox (badness 6157) in paragraph at lines 217--218
 []\T1/ppl/m/n/10.53937 Mohammadreza Sinayi, Morteza Rasti-Barzoki, A game the-o
@@ -2001,7 +2003,7 @@ Underfull \hbox (badness 2318) in paragraph at lines 217--218
 on\T1/ppl/m/n/10.53937 , Vol-ume 196, 2018, Pages 1443-1458, ISSN 0959-6526,
  []
 
-[10]
+[10] [11]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 228.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 228.
  (dual-channel.aux)
@@ -2022,10 +2024,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 228.
 Here is how much of TeX's memory you used:
  41065 strings out of 427240
  856170 string characters out of 3145703
- 1074998 words of memory out of 3000000
+ 1073998 words of memory out of 3000000
  44977 multiletter control sequences out of 15000+200000
  553794 words of font info for 79 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,12n,71p,901b,514s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on dual-channel.pdf (10 pages).
+Output written on dual-channel.pdf (11 pages).
