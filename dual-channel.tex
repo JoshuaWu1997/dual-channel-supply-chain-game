@@ -113,19 +113,45 @@
 \begin{equation}\label{p_star}
     p^*(w,\theta)=\frac{\alpha+\lambda_r\theta+\beta w}{2\beta}
 \end{equation}
-\par 此时的厂商的效益最大化，可看作厂商内部的最优化问题，因为市场价格与自身生产的关系已知，将式（\ref{p_star}）带入式（\ref{U_m}）得到到厂商效益：
+\par 此时的厂商的效益最大化，可看作厂商内部的最优化问题，因为市场价格与自身生产的关系已知，将式（\ref{p_star}）带入式（\ref{U_m}）得到厂商效益：
 \begin{equation}
     U_m^*(w,\theta)=\frac{1}{2}(w-c)(\alpha+\lambda_r\theta-\beta w)+\frac{1}{2}(\alpha+2\lambda_m\theta-\lambda_r\theta-\beta w)(\frac{\alpha+\lambda_r\theta+\beta w}{2\beta}-c)-\eta\frac{\theta^2}{2}
 \end{equation}
+\par 为了求解其均衡点，我们不妨令$\beta=1, \lambda_r=\epsilon\lambda_m$，简化求解过程，得到Nash均衡点方程：
+\begin{equation}  
+    \left\{  
+        \begin{array}{lr}
+            \lambda_r\theta-3\epsilon w+\epsilon\alpha+2\epsilon c=0               \\  
+            \lambda_rw-2\epsilon\eta\theta+2\lambda_r\alpha-2\lambda_rc=0   
+        \end{array}  
+    \right. 
+\end{equation} 
+\par 得到了Nash均衡点和有界均衡点分别为：$E_1=(0,0)$, $E_2=(\frac{\alpha+2c}{3},0)$, $E_3=(0,\frac{\lambda_r(\alpha-c)}{\epsilon\eta})$, $E^*=(w^*,\theta^*)$，其中：
+$$\theta^*=\frac{\epsilon\lambda_r(4c-7\alpha)}{\lambda_r^2-6\epsilon^2\eta}$$
+$$w^*=\frac{2\lambda_r^2(\alpha-c)+2\epsilon^2\eta(\alpha+2c)}{\lambda_r^2-6\epsilon^2\eta}$$
+\par 我们利用Jacobi矩阵的性质来判别这些均衡点的稳定性，首先对于$E_1$有：
+\begin{equation}
+    J(E_1)=
+    \left[
+    \begin{array}{ccc}
+        1+\frac{\alpha}{2}k_w&0&0\\
+        0&1&0\\
+        0&0&1+\frac{\alpha-2\epsilon c-2c}{2\epsilon}\lambda_rk_\theta
+    \end{array}
+    \right]
+\end{equation}
+\par 则可得$J(E_1)$的特征值为：$\lambda_1=1+\frac{\alpha}{2}k_w$，$\lambda_2=1$，$\lambda_3=1+\frac{\alpha-2\epsilon c-2c}{2\epsilon}\lambda_rk_\theta$。已知各系数均大于零，根据判别法则可知，$|\lambda_1\lambda_2\lambda_3|>1$，即该均衡点不稳定，同理可将非Nash均衡点代入计算得边界均衡点都是不稳定的。以下，计算Nash均衡点的Jacobi矩阵：
+
 \subsection{经销商的角度}
 \par 经销商需要在厂商确定批发价$w$和绿色等级$\theta$的前提下，对自我的效用最优化，而这二者则是由厂商商效用最大化决定的，即：
 \begin{equation}\label{t_star}
-    \theta^*=\frac{\beta p-\alpha}{\lambda_r}
+    \theta^*=\frac{\lambda_rw+\lambda_mp-(\lambda_r+\lambda_m)c}{\eta}
 \end{equation}
+\par 对于厂商批发价边际价格的讨论，我们发现：在一步博弈下，厂商批发价的制定并不受限，即：
 \begin{equation}\label{w_star}
-    w^*=\frac{\beta\eta-\lambda_r\lambda_m}{\lambda_r^2}p-\frac{\alpha\eta-\lambda_r\lambda_m c}{\lambda_r^2}-c
+    \frac{\partial U_m}{\partial w}=\alpha-\beta p+\lambda_r\theta^*>0
 \end{equation}
-\par 此时的经销商的效益最大化，可看作其自身的最优化问题，将式（\ref{t_star}）（\ref{w_star}）带入式（\ref{U_r}）得到到经销商效益：
+\par 此时的经销商的效益最大化，然而厂商如何决定制定自己的批发价我们难以在此确定。因为，在任何一步博弈下，当经销商确定了市场价格，厂商都可以通过一种霸道的策略，即将批发价定制的高于售价，使零售商无利可图从而退出市场，并且这种情况在实际中确实存在。然而，长期博弈中，由于某些外部因素，二者可以博弈形成一种可持续的合作关系。
 \section{稳定性的数值分析}
 \par 数值分析模拟动力系统演化模式是一种非常直观有效的工具。在本文所描述的系统中，我们重点关注外部影响，包括政府对绿色原料的补贴（$\eta$），以及对绿色产品的支持力度（$\lambda_r, \lambda_m$），对双方博弈路径的影响，以及其中可能产生的混沌现象。而我们研究的目标即为双方的博弈目标：批发价$w$，零售价$p$和绿色等级$\theta$。对动力系统混沌性的描述，我们采用了文献中普遍采用的二维分岔图，以及Lyapunov指数\cite{2017Tang}\cite{2018Zhang}\cite{2015Zhang}\cite{2018Huang}。除上述研究因素以外，我们不失一般性的对余下的参数预先赋值，简化模型计算成本，同时提出以下假设：
 \par \textbf{基本假设五：}在以下的模拟计算中，我们假设$\alpha=3, \beta=1, c=1$。我们认为绿色产品在直销渠道的吸引力较弱于经销渠道，假设这种差异为一个较小的常数（否则二者竞争差异过大，系统在很早的时候就会发生崩溃），即$\lambda_r=\lambda_m+d$，通过实验结果我们取$d=0.12$较为适中。
