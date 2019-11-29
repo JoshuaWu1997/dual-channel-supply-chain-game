@@ -124,10 +124,10 @@
     \right. 
 \end{equation} 
 \par 得到了Nash均衡点和有界均衡点分别为：$E_1=(0,0)$, $E_2=(\frac{\alpha+2c}{3},0)$, $E_3=(0,\frac{\lambda_r(\alpha-c)}{\epsilon\eta})$, $E^*=(w^*,\theta^*)$，其中：
-$$\theta^*=\frac{\epsilon\lambda_r(4c-7\alpha)}{\lambda_r^2-6\epsilon^2\eta}$$
-$$w^*=\frac{2\lambda_r^2(\alpha-c)+2\epsilon^2\eta(\alpha+2c)}{\lambda_r^2-6\epsilon^2\eta}$$
+$$\theta^*=\frac{\epsilon\lambda_r(4c-7\alpha)}{\lambda_r^2-6\epsilon^2\eta},\quad
+w^*=\frac{2\lambda_r^2(\alpha-c)+2\epsilon^2\eta(\alpha+2c)}{\lambda_r^2-6\epsilon^2\eta}$$
 \par 我们利用Jacobi矩阵的性质来判别这些均衡点的稳定性，首先对于$E_1$有：
-\begin{equation}
+\begin{equation}\label{jacobi_1}
     J(E_1)=
     \left[
     \begin{array}{ccc}
@@ -137,8 +137,39 @@ $$w^*=\frac{2\lambda_r^2(\alpha-c)+2\epsilon^2\eta(\alpha+2c)}{\lambda_r^2-6\eps
     \end{array}
     \right]
 \end{equation}
-\par 则可得$J(E_1)$的特征值为：$\lambda_1=1+\frac{\alpha}{2}k_w$，$\lambda_2=1$，$\lambda_3=1+\frac{\alpha-2\epsilon c-2c}{2\epsilon}\lambda_rk_\theta$。已知各系数均大于零，根据判别法则可知，$|\lambda_1\lambda_2\lambda_3|>1$，即该均衡点不稳定，同理可将非Nash均衡点代入计算得边界均衡点都是不稳定的。以下，计算Nash均衡点的Jacobi矩阵：
-
+\par 由式\ref{jacobi_1}可得$J(E_1)$的特征值为：$\lambda_1=1+\frac{\alpha}{2}k_w$，$\lambda_2=1$，$\lambda_3=1+\frac{\alpha-2\epsilon c-2c}{2\epsilon}\lambda_rk_\theta$。已知各系数均大于零，根据判别法则可知，$|\lambda_1\lambda_2\lambda_3|>1$，即该均衡点不稳定，同理可将非Nash均衡点代入计算得边界均衡点都是不稳定的。以下，计算Nash均衡点的Jacobi矩阵：
+\begin{equation}
+    J(E^*)=
+    (1+k_wh_1)(1+k_ph_2)(1+k_\theta h_3)
+    \left[
+    \begin{array}{ccc}
+        \frac{1+k_wh_1}{k_ww^*} & -\beta & \lambda_r \\
+        \beta & \frac{1+k_ph_2}{k_pp^*} & \lambda \\
+        \lambda_r & \lambda_m & \frac{1+k_\theta h_3}{k_\theta\theta^*}
+    \end{array}
+    \right]
+\end{equation}
+\par 其中$h_1=\alpha-p^*+\lambda_r\theta^*$，$h_2=-\alpha-\lambda_r\theta^*-w^*$，$h_3=(1+\frac{1}{2\epsilon})\lambda_rw^*+(\frac{\lambda_r^*}{2\epsilon}-2\eta)\theta^*+(\frac{\alpha-2c}{2\epsilon}-c)\lambda_r$。对于该矩阵的特征值分析过于复杂，我们依然沿用前人的计算经验，套用了Jury判别条件。则该系统在Nash均衡点稳定的充分必要条件为：
+\begin{equation}\label{jury}
+    \Omega^*=
+    \left\{
+    \begin{array}{rl}
+        1+Tr+Det>0 \\
+        1-Tr+Det>0 \\
+        1-Det>0
+    \end{array}
+    \right.
+\end{equation}
+\par 其中$Tr$和$Det$分别表示Jacobi矩阵的迹和特征值，通过计算得到该系统的稳定性条件。
+\begin{equation}\label{tr_det}
+    \left\{
+    \begin{array}{l}
+        Tr=3+k_wh_1+k_ph_2+k_\theta h_3 \\
+        Det= (1+k_wh_1)(1+k_ph_2)(1+k_\theta h_3)(\frac{\beta^2}{1+k_\theta h_3}-\frac{\lambda_r^*2}{1+k_ph_2}-\frac{\lambda_r\lambda_m}{1+k_wh_1})
+    \end{array}
+    \right.
+\end{equation}
+\par 将式\ref{tr_det}代入式\ref{jury}则可得到Nash均衡点附近的稳定区域，该区域是由参数的选择所决定的。
 \subsection{经销商的角度}
 \par 经销商需要在厂商确定批发价$w$和绿色等级$\theta$的前提下，对自我的效用最优化，而这二者则是由厂商商效用最大化决定的，即：
 \begin{equation}\label{t_star}

@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2019.11.23)  29 NOV 2019 00:38
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2019.11.29)  29 NOV 2019 15:09
 entering extended mode
-**c:/Users/Xing/Documents/wjd/Game_theory/dual-channel/dual-channel.tex
-(c:/Users/Xing/Documents/wjd/Game_theory/dual-channel/dual-channel.tex
+**c:/Users/lenovo/Documents/Academic/Game_theory/Thesis/dual-channel.tex
+(c:/Users/lenovo/Documents/Academic/Game_theory/Thesis/dual-channel.tex
 LaTeX2e <2019-10-01> patch level 3
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
 Document Class: article 2019/10/25 v1.4k Standard LaTeX document class
@@ -53,7 +53,7 @@ Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 \Gm@dimlist=\toks15
 
 ("C:\Program Files\MiKTeX 2.9\tex/xelatex/xetexconfig\geometry.cfg"))
-("C:\Program Files\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip43
@@ -69,11 +69,11 @@ s
 \@abovecaptionskip=\skip52
 \@belowcaptionskip=\skip53
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/ctex\ctex.sty"
-("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/ctex\ctex.sty
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/l3kernel\expl3.sty
 Package: expl3 2019-11-07 L3 programming layer (loader) 
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\expl3-code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/l3kernel\expl3-code.tex
 Package: expl3 2019-11-07 L3 programming layer (code)
 \c_max_int=\count91
 \l_tmpa_int=\count92
@@ -222,10 +222,12 @@ Package: expl3 2019-11-07 L3 programming layer (code)
 \l__coffin_display_y_dim=\dimen142
 \g__char_data_ior=\read1
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\l3deprecation.def"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/l3kernel\l3deprecation.de
+f
 File: l3deprecation.def 2019-04-06 v L3 Deprecated functions
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-xdvipdfmx.def"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/l3backend\l3backend-xdvip
+dfmx.def
 File: l3backend-xdvipdfmx.def 2019-04-06 L3 backend support: xdvipdfmx
 \g__graphics_track_int=\count174
 \l__pdf_internal_box=\box45
@@ -234,20 +236,22 @@ File: l3backend-xdvipdfmx.def 2019-04-06 L3 backend support: xdvipdfmx
 ))
 Package: ctex 2019/05/29 v2.4.16 Chinese adapter in LaTeX (CTEX)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/xparse\xparse.sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/l3packages/xparse\xparse.
+sty
 Package: xparse 2019-10-11 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count177
 \g__xparse_grabber_int=\count178
 \l__xparse_m_args_int=\count179
 \l__xparse_v_nesting_int=\count180
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/l3keys2e\l3keys2e.sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/l3packages/l3keys2e\l3key
+s2e.sty
 Package: l3keys2e 2019-10-11 LaTeX2e option processing using LaTeX3 keys
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/ctex\ctexhook.sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/ctex\ctexhook.sty
 Package: ctexhook 2019/05/29 v2.4.16 Document and package hooks (CTEX)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/ctex\ctexpatch.sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/ctex\ctexpatch.sty
 Package: ctexpatch 2019/05/29 v2.4.16 Patching commands (CTEX)
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\fix-cm.sty"
@@ -256,7 +260,7 @@ Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/ms\everysel.sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/ms\everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
 \l__ctex_tmp_int=\count181
@@ -265,16 +269,18 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \g__ctex_section_depth_int=\count182
 \g__ctex_font_size_int=\count183
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/ctex/config\ctexopts.cfg"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/ctex/config\ctexopts.cfg
 File: ctexopts.cfg 2019/05/29 v2.4.16 Option configuration file (CTEX)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/ctex/engine\ctex-engine-xetex.def"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/ctex/engine\ctex-engine-x
+etex.def
 File: ctex-engine-xetex.def 2019/05/29 v2.4.16 XeLaTeX adapter (CTEX)
 
-("C:\Program Files\MiKTeX 2.9\tex/xelatex/xecjk\xeCJK.sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/xelatex/xecjk\xeCJK.sty
 Package: xeCJK 2019/06/02 v3.7.4 Typesetting CJK scripts with XeLaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/xtemplate\xtemplate.sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/l3packages/xtemplate\xtem
+plate.sty
 Package: xtemplate 2019-10-11 L3 Experimental prototype document functions
 \l__xtemplate_tmp_dim=\dimen144
 \l__xtemplate_tmp_int=\count184
@@ -339,8 +345,7 @@ Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
 \g__xeCJK_fam_allocation_int=\count194
 \l__xeCJK_verb_case_int=\count195
 \l__xeCJK_verb_exspace_skip=\skip66
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/fontspec\fontspec.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/fontspec\fontspec.sty"
 Package: fontspec 2019/10/19 v2.7d Font selection for XeLaTeX and LuaLaTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/fontspec\fontspec-xetex.sty"
@@ -376,13 +381,13 @@ LaTeX Info: Redefining \upshape on input line 4062.
 LaTeX Info: Redefining \em on input line 4092.
 LaTeX Info: Redefining \emph on input line 4117.
 ))
-("C:\Program Files\MiKTeX 2.9\tex/xelatex/xecjk\xeCJK.cfg"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/xelatex/xecjk\xeCJK.cfg
 File: xeCJK.cfg 2019/06/02 v3.7.4 Configuration file for xeCJK package
 ))
-("C:\Program Files\MiKTeX 2.9\tex/xelatex/xecjk\xeCJKfntef.sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/xelatex/xecjk\xeCJKfntef.sty
 Package: xeCJKfntef 2019/06/02 v3.7.4 xeCJK font effect
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/ulem\ulem.sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/ulem\ulem.sty
 \UL@box=\box48
 \UL@hyphenbox=\box49
 \UL@skip=\skip67
@@ -394,7 +399,7 @@ Package: xeCJKfntef 2019/06/02 v3.7.4 xeCJK font effect
 Package: ulem 2012/05/18
 \ULdepth=\dimen178
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/cjk\CJKfntef.sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/cjk\CJKfntef.sty
 Package: CJKfntef 2015/04/18 4.8.4
 \CJK@fntefSkip=\skip68
 \CJK@nest=\count274
@@ -415,32 +420,35 @@ Package: CJKfntef 2015/04/18 4.8.4
 )
 \l__ctex_ziju_dim=\dimen183
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/zhnumber\zhnumber.sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/zhnumber\zhnumber.sty
 Package: zhnumber 2019/04/07 v2.7 Typesetting numbers with Chinese glyphs
 \l__zhnum_scale_int=\count275
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/zhnumber\zhnumber-utf8.cfg"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/zhnumber\zhnumber-utf8.cf
+g
 File: zhnumber-utf8.cfg 2019/04/07 v2.7 Chinese numerals with UTF8 encoding
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/ctex/scheme\ctex-scheme-chinese.def"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/ctex/scheme\ctex-scheme-c
+hinese.def
 File: ctex-scheme-chinese.def 2019/05/29 v2.4.16 Chinese scheme for generic (CT
 EX)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/ctex/config\ctex-name-utf8.cfg"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/ctex/config\ctex-name-utf
+8.cfg
 File: ctex-name-utf8.cfg 2019/05/29 v2.4.16 Caption with encoding UTF8 (CTEX)
-))
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\indentfirst.sty"
+)) ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/ctex\ctex-c5size.clo"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/ctex\ctex-c5size.clo
 File: ctex-c5size.clo 2019/05/29 v2.4.16 c5size option (CTEX)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/ctex/fontset\ctex-fontset-windows.def"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/ctex/fontset\ctex-fontset
+-windows.def
 File: ctex-fontset-windows.def 2019/05/29 v2.4.16 Windows fonts definition (CTE
 X)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/ctex/fontset\ctex-fontset-windowsnew.de
-f"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/ctex/fontset\ctex-fontset
+-windowsnew.def
 File: ctex-fontset-windowsnew.def 2019/05/29 v2.4.16 Windows fonts definition f
 or Vista or later version (CTEX)
 
@@ -473,7 +481,8 @@ Package fontspec Info: Font family 'SimSun(0)' created for font 'SimSun' with
 (fontspec)             <->"KaiTi/OT:script=hani;language=DFLT;"
 (fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
 
-))) ("C:\Program Files\MiKTeX 2.9\tex/latex/ctex/config\ctex.cfg"
+)))
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/ctex/config\ctex.cfg
 File: ctex.cfg 2019/05/29 v2.4.16 Configuration file (CTEX)
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\enumerate.sty"
@@ -574,7 +583,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4788.
 \c@Hy@tempcnt=\count279
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/url\url.sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -634,11 +643,11 @@ Package atveryend Info: \enddocument detected (standard20110627).
 Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+85.
 )
 \Hy@SectionHShift=\skip72
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/booktabs\booktabs.sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2019/10/08 v1.6180339 publication quality tables
 \heavyrulewidth=\dimen188
 \lightrulewidth=\dimen189
@@ -667,7 +676,7 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/units\nicefrac.sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/units\nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseDisplaystyle=\skip73
 \L@UnitsRaiseTextstyle=\skip74
@@ -676,28 +685,28 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/microtype\microtype.sty"
-Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/microtype\microtype.sty
+Package: microtype 2019/10/10 v2.7c Micro-typographical refinements (RS)
 \MT@toks=\toks19
 \MT@count=\count292
 LaTeX Info: Redefining \textls on input line 790.
 \MT@outer@kern=\dimen257
-LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
+LaTeX Info: Redefining \textmicrotypecontext on input line 1347.
 \MT@listname@count=\count293
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/microtype\microtype-xetex.def"
-File: microtype-xetex.def 2019/11/18 v2.7d Definitions specific to xetex (RS)
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/microtype\microtype-xetex
+.def
+File: microtype-xetex.def 2019/10/10 v2.7c Definitions specific to xetex (RS)
 LaTeX Info: Redefining \lsstyle on input line 258.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/microtype\microtype.cfg"
-File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
-))
-("C:\Program Files\MiKTeX 2.9\tex/latex/lipsum\lipsum.sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2019/10/10 v2.7c microtype main configuration file (RS)
+)) (C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/lipsum\lipsum.sty
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/lipsum\lipsum.ltd.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/lipsum\lipsum.ltd.tex
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
@@ -720,10 +729,10 @@ File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
 \Gin@req@height=\dimen258
 \Gin@req@width=\dimen259
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption.sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption.sty
 Package: caption 2019/09/01 v3.3d Customizing captions (AR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption3.sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption3.sty
 Package: caption3 2019/09/01 v1.8d caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen260
@@ -773,37 +782,45 @@ Package: longtable 2019/02/06 v4.12 Multi-page Table package (DPC)
 \c@LT@chunks=\count301
 \LT@p@ftn=\toks21
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/frontendlayer\tikz.sty"
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf.sty"
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgfrcs.sty"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-common.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/frontendlayer\tikz.st
+y (C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pgfrcs.sty
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfutil-c
+ommon.tex
 \pgfutil@everybye=\toks22
 \pgfutil@tempdima=\dimen271
 \pgfutil@tempdimb=\dimen272
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-common-lists.te
-x")) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-latex.def"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfutil-c
+ommon-lists.tex))
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfutil-l
+atex.def
 \pgfutil@abb=\box63
-("C:\Program Files\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
+ (C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/ms\everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfrcs.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf\pgf.revision.tex")
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfrcs.co
+de.tex
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2019/08/03 v3.1.4b (3.1.4b)
 ))
 Package: pgf 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgfcore.sty"
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/systemlayer\pgfsys.sty"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsys.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/basiclayer\pgfcore.st
+y
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/systemlayer\pgfsys.st
+y
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsys.
+code.tex
 Package: pgfsys 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeys.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfkeys.c
+ode.tex
 \pgfkeys@pathtoks=\toks23
 \pgfkeys@temptoks=\toks24
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeysfiltered.code.te
-x"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfkeysfi
+ltered.code.tex
 \pgfkeys@tmptoks=\toks25
 ))
 \pgf@x=\dimen273
@@ -826,33 +843,37 @@ x"
 \t@pgf@tokb=\toks27
 \t@pgf@tokc=\toks28
 \pgf@sys@id@count=\count306
- ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgf.cfg"
+
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2019/08/03 v3.1.4b (3.1.4b)
 )
 Driver file for pgf: pgfsys-xetex.def
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsys-xetex.def"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsys-
+xetex.def
 File: pgfsys-xetex.def 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsys-dvipdfmx.def"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsys-
+dvipdfmx.def
 File: pgfsys-dvipdfmx.def 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
-"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsys-
+common-pdf.def
 File: pgfsys-common-pdf.def 2019/08/03 v3.1.4b (3.1.4b)
 )
 \pgfsys@objnum=\count307
 )))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.t
-ex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsyss
+oftpath.code.tex
 File: pgfsyssoftpath.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgfsyssoftpath@smallbuffer@items=\count308
 \pgfsyssoftpath@bigbuffer@items=\count309
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsysprotocol.code.t
-ex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/systemlayer\pgfsysp
+rotocol.code.tex
 File: pgfsysprotocol.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-)) ("C:\Program Files\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+))
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
@@ -868,13 +889,18 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcore.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcore.
+code.tex
 Package: pgfcore 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathcalc.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathutil.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathparser.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmath.code.t
+ex
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathcalc.co
+de.tex
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathutil.co
+de.tex)
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathparser.
+code.tex
 \pgfmath@dimen=\dimen283
 \pgfmath@count=\count310
 \pgfmath@box=\box64
@@ -882,29 +908,32 @@ Package: pgfcore 2019/08/03 v3.1.4b (3.1.4b)
 \pgfmath@stack@operand=\toks30
 \pgfmath@stack@operation=\toks31
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.basic.code.
-tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.trigonometr
-ic.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.random.code
-.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.comparison.
-code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.base.code.t
-ex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.round.code.
-tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.misc.code.t
-ex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.integerarit
-hmetics.code.tex")))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfloat.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunctio
+ns.code.tex
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunctio
+ns.basic.code.tex)
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunctio
+ns.trigonometric.code.tex)
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunctio
+ns.random.code.tex)
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunctio
+ns.comparison.code.tex)
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunctio
+ns.base.code.tex)
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunctio
+ns.round.code.tex)
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunctio
+ns.misc.code.tex)
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfunctio
+ns.integerarithmetics.code.tex)))
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmathfloat.c
+ode.tex
 \c@pgfmathroundto@lastzeros=\count311
 ))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfint.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
-"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfint.code.te
+x)
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorep
+oints.code.tex
 File: pgfcorepoints.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@picminx=\dimen284
 \pgf@picmaxx=\dimen285
@@ -921,117 +950,131 @@ File: pgfcorepoints.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@zx=\dimen296
 \pgf@zy=\dimen297
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepathconstruct.c
-ode.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorep
+athconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@path@lastx=\dimen298
 \pgf@path@lasty=\dimen299
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepathusage.code.
-tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorep
+athusage.code.tex
 File: pgfcorepathusage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@shorten@end@additional=\dimen300
 \pgf@shorten@start@additional=\dimen301
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
-"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcores
+copes.code.tex
 File: pgfcorescopes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgfpic=\box65
 \pgf@hbox=\box66
 \pgf@layerbox@main=\box67
 \pgf@picture@serial@count=\count312
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoregraphicstate.co
-de.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoreg
+raphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgflinewidth=\dimen302
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoretransformations
-.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoret
+ransformations.code.tex
 File: pgfcoretransformations.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@pt@x=\dimen303
 \pgf@pt@y=\dimen304
 \pgf@pt@temp=\dimen305
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorequick.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoreq
+uick.code.tex
 File: pgfcorequick.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreobjects.code.te
-x"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoreo
+bjects.code.tex
 File: pgfcoreobjects.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepathprocessing.
-code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorep
+athprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
-"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorea
+rrows.code.tex
 File: pgfcorearrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgfarrowsep=\dimen306
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcores
+hade.code.tex
 File: pgfcoreshade.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@max=\dimen307
 \pgf@sys@shading@range@num=\count313
 \pgf@shadingcount=\count314
-) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreimage.code.te
-x"
+)
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorei
+mage.code.tex
 File: pgfcoreimage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreexternal.code.t
-ex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoree
+xternal.code.tex
 File: pgfcoreexternal.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgfexternal@startupbox=\box68
 ))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
-"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorel
+ayers.code.tex
 File: pgfcorelayers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoretransparency.co
-de.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcoret
+ransparency.code.tex
 File: pgfcoretransparency.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepatterns.code.t
-ex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorep
+atterns.code.tex
 File: pgfcorepatterns.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/basiclayer\pgfcorer
+df.code.tex
 File: pgfcorerdf.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-))) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmoduleshapes.code.
-tex"
+)))
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmodulesh
+apes.code.tex
 File: pgfmoduleshapes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgfnodeparttextbox=\box69
-) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmoduleplot.code.tex"
+)
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmodulepl
+ot.code.tex
 File: pgfmoduleplot.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/compatibility\pgfcomp-version-0-65.
-sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/compatibility\pgfcomp
+-version-0-65.sty
 Package: pgfcomp-version-0-65 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@nodesepstart=\dimen308
 \pgf@nodesepend=\dimen309
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/compatibility\pgfcomp-version-1-18.
-sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/compatibility\pgfcomp
+-version-1-18.sty
 Package: pgfcomp-version-1-18 2019/08/03 v3.1.4b (3.1.4b)
-)) ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgffor.sty"
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgfkeys.sty"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeys.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.sty"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgffor.code.tex"
+))
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pgffor.sty
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/utilities\pgfkeys.sty
+
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgfkeys.c
+ode.tex))
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmath.code.t
+ex))
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/utilities\pgffor.co
+de.tex
 Package: pgffor 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex")
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/math\pgfmath.code.t
+ex)
 \pgffor@iter=\dimen310
 \pgffor@skip=\dimen311
 \pgffor@stack=\toks32
 \pgffor@toks=\toks33
 ))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz\
+tikz.code.tex
 Package: tikz 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryplothandlers.
-code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries\pgflibrar
+yplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@plot@mark@count=\count315
 \pgfplotmarksize=\dimen312
@@ -1053,7 +1096,8 @@ File: pgflibraryplothandlers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \tikznumberofcurrentchild=\count318
 \tikz@fig@count=\count319
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmodulematrix.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/modules\pgfmodulema
+trix.code.tex
 File: pgfmodulematrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgfmatrixcurrentrow=\count320
 \pgfmatrixcurrentcolumn=\count321
@@ -1061,74 +1105,74 @@ File: pgfmodulematrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
 \tikz@expandcount=\count323
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
-librarytopaths.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz/
+libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\mathpazo.sty"
 Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup6
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/flowchart\flowchart.sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/flowchart\flowchart.sty
 Package: flowchart 2015/03/19 3.3 Flowchart shapes for TikZ
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/makeshape\makeshape.sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/makeshape\makeshape.sty
 Package: makeshape 2013/01/25 2.1 Making custom shapes for PGF/TikZ
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryintersections
-.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryfpu.code.tex"
-)
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries\pgflibrar
+yintersections.code.tex
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries\pgflibrar
+yfpu.code.tex)
 \pgf@intersect@solutions=\count324
 )
 \crct@dim=\dimen321
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
-libraryshapes.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz/
+libraries\tikzlibraryshapes.code.tex
 File: tikzlibraryshapes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
-libraryshapes.geometric.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz/
+libraries\tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries/shapes\pgflibraryshapes
-.geometric.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries/shapes\pg
+flibraryshapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 ))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
-libraryshapes.misc.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz/
+libraries\tikzlibraryshapes.misc.code.tex
 File: tikzlibraryshapes.misc.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries/shapes\pgflibraryshapes
-.misc.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries/shapes\pg
+flibraryshapes.misc.code.tex
 File: pgflibraryshapes.misc.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 ))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
-libraryshapes.symbols.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz/
+libraries\tikzlibraryshapes.symbols.code.tex
 File: tikzlibraryshapes.symbols.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries/shapes\pgflibraryshapes
-.symbols.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries/shapes\pg
+flibraryshapes.symbols.code.tex
 File: pgflibraryshapes.symbols.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 ))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
-libraryshapes.arrows.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz/
+libraries\tikzlibraryshapes.arrows.code.tex
 File: tikzlibraryshapes.arrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries/shapes\pgflibraryshapes
-.arrows.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries/shapes\pg
+flibraryshapes.arrows.code.tex
 File: pgflibraryshapes.arrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 ))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
-libraryshapes.callouts.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries/shapes\pgflibraryshapes
-.callouts.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
-libraryshapes.multipart.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz/
+libraries\tikzlibraryshapes.callouts.code.tex
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries/shapes\pg
+flibraryshapes.callouts.code.tex))
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz/
+libraries\tikzlibraryshapes.multipart.code.tex
 File: tikzlibraryshapes.multipart.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries/shapes\pgflibraryshapes
-.multipart.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries/shapes\pg
+flibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgfnodepartlowerbox=\box74
 \pgfnodeparttwobox=\box75
@@ -1150,14 +1194,16 @@ File: pgflibraryshapes.multipart.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgfnodepartsevenbox=\box91
 \pgfnodepartsixbox=\box92
 \pgfnodepartfivebox=\box93
-)))) ("C:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
+))))
+("C:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count325
 \float@exts=\toks34
 \float@box=\box94
 \@float@everytoks=\toks35
 \@floatcapt=\box95
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/subfigure\subfigure.sty"
+)
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/subfigure\subfigure.sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip84
 \subfigcapskip=\skip85
@@ -1173,29 +1219,28 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-("C:\Program Files\MiKTeX 2.9\tex/latex/subfigure\subfigure.cfg")
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/subfigure\subfigure.cfg)
 \subfig@top=\skip88
 \subfig@bottom=\skip89
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/jknappen\mathrsfs.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/jknappen\mathrsfs.sty"
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup7
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
-libraryarrows.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz/
+libraries\tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryarrows.code.t
-ex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/libraries\pgflibrar
+yarrows.code.tex
 File: pgflibraryarrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \arrowsize=\dimen324
 ))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
-librarychains.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz/
+libraries\tikzlibrarychains.code.tex
 File: tikzlibrarychains.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
-librarypositioning.code.tex"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/generic/pgf/frontendlayer/tikz/
+libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )) (dual-channel.aux)
 \openout1 = `dual-channel.aux'.
@@ -1322,14 +1367,14 @@ Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/microtype\mt-ppl.cfg"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/microtype\mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: longtable package is loaded.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/caption\ltcaption.sty"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 )
 Package caption Info: subfigure package is loaded.
@@ -1678,7 +1723,7 @@ File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 10.98209pt on input line 43.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/microtype\mt-msa.cfg"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -1688,7 +1733,7 @@ LaTeX Font Info:    Font shape `U/msa/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 10.98209pt on input line 43.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/microtype\mt-msb.cfg"
+(C:\Users\lenovo\AppData\Roaming\MiKTeX\2.9\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
@@ -1871,145 +1916,149 @@ Package microtype Info: Character `textquotedblright ' is missing
 [3] [4] [5]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 158.
+(hyperref)                removing `math shift' on input line 189.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 158.
+(hyperref)                removing `subscript' on input line 189.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 158.
+(hyperref)                removing `subscript' on input line 189.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 158.
+(hyperref)                removing `math shift' on input line 189.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 158.
+(hyperref)                removing `math shift' on input line 189.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lambda' on input line 158.
+(hyperref)                removing `\lambda' on input line 189.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 158.
+(hyperref)                removing `math shift' on input line 189.
 
 File: Hopf_Lyapunov_1_1.png Graphic file (type bmp)
 <Hopf_Lyapunov_1_1.png>
-[6]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 167.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 167.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 167.
+(hyperref)                removing `math shift' on input line 198.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 167.
+(hyperref)                removing `subscript' on input line 198.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 167.
+(hyperref)                removing `subscript' on input line 198.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\eta' on input line 167.
+(hyperref)                removing `math shift' on input line 198.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 167.
+(hyperref)                removing `math shift' on input line 198.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\eta' on input line 198.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 198.
 
 File: Hopf_Lyapunov_2_1.png Graphic file (type bmp)
 <Hopf_Lyapunov_2_1.png>
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 176.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 176.
-
+ [7]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\not' on input line 176.
+(hyperref)                removing `math shift' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 176.
+(hyperref)                removing `subscript' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 176.
+(hyperref)                removing `\not' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 176.
+(hyperref)                removing `subscript' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lambda' on input line 176.
+(hyperref)                removing `math shift' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\eta' on input line 176.
+(hyperref)                removing `math shift' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 176.
+(hyperref)                removing `\lambda' on input line 207.
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 178--179
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\eta' on input line 207.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 207.
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 209--210
 []\TU/SimSun(0)/bx/n/10.53937 基 本 假 设 六：|  \TU/SimSun(0)/m/n/10.53937 假 设 经 销 商
  调 整 市 场 价 格 的 能 力 大 于 厂 商 调 整 批 发 价 的 能 力 $\OT1/zplm/m/n/10.53937 (\OML/zplm/m
 /it/10.53937 k[]\OT1/ppl/m/n/10.53937 , \OML/zplm/m/it/10.53937 k[]\OT1/ppl/m/n
 /10.53937 , \OML/zplm/m/it/10.53937 k[]\OT1/zplm/m/n/10.53937 ) =
  []
 
-
-Underfull \vbox (badness 1803) has occurred while \output is active []
-
- [7]
 File: Hopf_Lyapunov_3_1.png Graphic file (type bmp)
 <Hopf_Lyapunov_3_1.png>
-File: Hopf_Lyapunov_3_2.png Graphic file (type bmp)
-<Hopf_Lyapunov_3_2.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
-[9]
-Underfull \hbox (badness 6157) in paragraph at lines 214--215
+File: Hopf_Lyapunov_3_2.png Graphic file (type bmp)
+<Hopf_Lyapunov_3_2.png>
+
+[9] [10]
+Underfull \hbox (badness 6157) in paragraph at lines 245--246
 []\T1/ppl/m/n/10.53937 Mohammadreza Sinayi, Morteza Rasti-Barzoki, A game the-o
 -retic ap-proach for pric-
  []
 
 
-Underfull \hbox (badness 2020) in paragraph at lines 214--215
+Underfull \hbox (badness 2020) in paragraph at lines 245--246
 \T1/ppl/m/n/10.53937 ing, green-ing, and so-cial wel-fare poli-cies in a sup-pl
 y chain with gov-ern-ment in-ter-ven-
  []
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 214--215
+Underfull \hbox (badness 2318) in paragraph at lines 245--246
 \T1/ppl/m/n/10.53937 tion, \T1/ppl/m/it/10.53937 Jour-nal of Cleaner Pro-duc-ti
 on\T1/ppl/m/n/10.53937 , Vol-ume 196, 2018, Pages 1443-1458, ISSN 0959-6526,
  []
 
-[10] [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 225.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 225.
+[11]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
  (dual-channel.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 225.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 225.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 256.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 256.
 Package rerunfilecheck Info: File `dual-channel.out' has not changed.
 (rerunfilecheck)             Checksum: 905D6AB84735E1301136FA7600EF6773.
 
@@ -2020,15 +2069,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 225.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 256.
  ) 
 Here is how much of TeX's memory you used:
- 41065 strings out of 427240
- 856170 string characters out of 3145703
- 1073996 words of memory out of 3000000
- 44977 multiletter control sequences out of 15000+200000
+ 41068 strings out of 427240
+ 858192 string characters out of 3145703
+ 1074109 words of memory out of 3000000
+ 44980 multiletter control sequences out of 15000+200000
  553794 words of font info for 79 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,12n,71p,874b,514s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,12n,71p,875b,514s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on dual-channel.pdf (11 pages).
