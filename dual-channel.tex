@@ -127,7 +127,7 @@
 \par 得到了Nash均衡点和有界均衡点分别为：$E_1=(0,0)$, $E_2=(\frac{\alpha+2c}{3},0)$, $E_3=(0,\frac{\lambda_r(\alpha-c)}{\epsilon\eta})$, $E^*=(w^*,\theta^*)$，其中：
 $$\theta^*=\frac{\epsilon\lambda_r(4c-7\alpha)}{\lambda_r^2-6\epsilon^2\eta},\quad
 w^*=\frac{2\lambda_r^2(\alpha-c)+2\epsilon^2\eta(\alpha+2c)}{\lambda_r^2-6\epsilon^2\eta}$$
-\par 我们利用Jacobi矩阵的性质来判别这些均衡点的稳定性，首先对于$E_1$有：
+\par 我们利用Jacobi矩阵的性质来判别这些均衡点的稳定性\cite{2017Tang}\cite{2018Li}，首先对于$E_1$有：
 \begin{equation}\label{jacobi_1}
     J(E_1)=
     \left[
@@ -138,7 +138,7 @@ w^*=\frac{2\lambda_r^2(\alpha-c)+2\epsilon^2\eta(\alpha+2c)}{\lambda_r^2-6\epsil
     \end{array}
     \right]
 \end{equation}
-\par 由式\ref{jacobi_1}可得$J(E_1)$的特征值为：$\lambda_1=1+\frac{\alpha}{2}k_w$，$\lambda_2=1$，$\lambda_3=1+\frac{\alpha-2\epsilon c-2c}{2\epsilon}\lambda_rk_\theta$。已知各系数均大于零，根据判别法则可知，$|\lambda_1\lambda_2\lambda_3|>1$，即该均衡点不稳定，同理可将非Nash均衡点代入计算得边界均衡点都是不稳定的。以下，计算Nash均衡点的Jacobi矩阵：
+\par 由式(\ref{jacobi_1})可得$J(E_1)$的特征值为：$\lambda_1=1+\frac{\alpha}{2}k_w$，$\lambda_2=1$，$\lambda_3=1+\frac{\alpha-2\epsilon c-2c}{2\epsilon}\lambda_rk_\theta$。已知各系数均大于零，根据判别法则可知，$|\lambda_1\lambda_2\lambda_3|>1$，即该均衡点不稳定，同理可将非Nash均衡点代入计算得边界均衡点都是不稳定的。以下，计算Nash均衡点的Jacobi矩阵：
 \begin{equation}
     J(E^*)=
     (1+k_wh_1)(1+k_ph_2)(1+k_\theta h_3)
@@ -150,7 +150,7 @@ w^*=\frac{2\lambda_r^2(\alpha-c)+2\epsilon^2\eta(\alpha+2c)}{\lambda_r^2-6\epsil
     \end{array}
     \right]
 \end{equation}
-\par 其中$h_1=\alpha-p^*+\lambda_r\theta^*$，$h_2=-\alpha-\lambda_r\theta^*-w^*$，$h_3=(1+\frac{1}{2\epsilon})\lambda_rw^*+(\frac{\lambda_r^*}{2\epsilon}-2\eta)\theta^*+(\frac{\alpha-2c}{2\epsilon}-c)\lambda_r$。对于该矩阵的特征值分析过于复杂，我们依然沿用前人的计算经验，套用了Jury判别条件。则该系统在Nash均衡点稳定的充分必要条件为：
+\par 其中$h_1=\alpha-p^*+\lambda_r\theta^*$，$h_2=-\alpha-\lambda_r\theta^*-w^*$，$h_3=(1+\frac{1}{2\epsilon})\lambda_rw^*+(\frac{\lambda_r^*}{2\epsilon}-2\eta)\theta^*+(\frac{\alpha-2c}{2\epsilon}-c)\lambda_r$。对于该矩阵的特征值分析过于复杂，我们依然沿用前人的计算经验，套用了Jury判别条件\cite{2017Tang}。则该系统在Nash均衡点稳定的充分必要条件为：
 \begin{equation}\label{jury}
     \Omega^*=
     \left\{
@@ -170,7 +170,7 @@ w^*=\frac{2\lambda_r^2(\alpha-c)+2\epsilon^2\eta(\alpha+2c)}{\lambda_r^2-6\epsil
     \end{array}
     \right.
 \end{equation}
-\par 将式\ref{tr_det}代入式\ref{jury}则可得到Nash均衡点附近的稳定区域，该区域是由参数的选择所决定的。
+\par 将式(\ref{tr_det})代入式(\ref{jury})则可得到Nash均衡点附近的稳定区域，该区域是由参数的选择所决定的。
 \subsection{经销商的角度}
 \par 经销商需要在厂商确定批发价$w$和绿色等级$\theta$的前提下，对自我的效用最优化，而这二者则是由厂商商效用最大化决定的，即：
 \begin{equation}\label{t_star}
@@ -185,7 +185,7 @@ w^*=\frac{2\lambda_r^2(\alpha-c)+2\epsilon^2\eta(\alpha+2c)}{\lambda_r^2-6\epsil
 \par 数值分析模拟动力系统演化模式是一种非常直观有效的工具。在本文所描述的系统中，我们重点关注外部影响，包括政府对绿色原料的补贴（$\eta$），以及对绿色产品的支持力度（$\lambda_r, \lambda_m$），对双方博弈路径的影响，以及其中可能产生的混沌现象。而我们研究的目标即为双方的博弈目标：批发价$w$，零售价$p$和绿色等级$\theta$。对动力系统混沌性的描述，我们采用了文献中普遍采用的二维分岔图，以及Lyapunov指数\cite{2017Tang}\cite{2018Zhang}\cite{2015Zhang}\cite{2018Huang}。除上述研究因素以外，我们不失一般性的对余下的参数预先赋值，简化模型计算成本，同时提出以下假设：
 \par \textbf{基本假设五：}在以下的模拟计算中，我们假设$\alpha=3, \beta=1, c=1$。我们认为绿色产品在直销渠道的吸引力较弱于经销渠道，假设这种差异为一个较小的常数（否则二者竞争差异过大，系统在很早的时候就会发生崩溃），即$\lambda_r=\lambda_m+d$，通过实验结果我们取$d=0.12$较为适中。
 \par 不同于现有论文基于Matlab计算的研究成果，我们设计开源了基于CUDA并发的数值模拟工具chaos-analysis (github.com/JoshuaWu1997/chaos-analysis.git)。基于该模拟过程高度相似的简单迭代，以及所需的样本数量庞大的特性，我们设计了利用GPU硬件的并发求解算法。该算法适用于广泛的多变量动力系统问题中，且对表达式的要求较低，可以扩展到大量复杂的问题中。以下的实验，我们模拟的规模达到了对参数区间进行1000次的划分，每个分割点进行20000-40000次随机初值的实验，每次实验进行3000次的迭代，保证实验能完整覆盖样本空间，同时迭代到均衡点。
-\par 我们同样也采用模拟的方式完成Lyapunov指数的计算。根据Lyapunov指数的定义，在初值足够小，迭代次数足够大的条件下，可利用其近似的逼近式来数值求解\ref{lyapunov}。该求解式提供了一种递推逼近Lyapunov指数的方式，并且避免了数值计算精度丢失问题导致的错误，见算法\ref{al}：
+\par 我们同样也采用模拟的方式完成Lyapunov指数的计算。根据Lyapunov指数的定义，在初值足够小，迭代次数足够大的条件下，可利用其近似的逼近式来数值求解\ref{lyapunov}。该求解式提供了一种递推逼近Lyapunov指数的方式，并且避免了数值计算精度丢失问题导致的错误，见算法(\ref{al})：
 \begin{equation}\label{lyapunov}
     L=\lim_{n\rightarrow\infty}\frac{1}{n}\ln(\frac{|x_n-x^*_n|}{|x_0-x^*_0|})=\lim_{n\rightarrow\infty}\sum_{t=1}^{n}\frac{1}{n}\ln(\frac{|x_{t+1}-x^*_{t+1}|}{|x_t-x^*_t|})
 \end{equation}
