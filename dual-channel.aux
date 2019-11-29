@@ -16,6 +16,7 @@
 \gdef\HyperFirstAtBeginDocument#1{#1}
 \providecommand*\HyPL@Entry[1]{}
 \HyPL@Entry{0<</S/D>>}
+\providecommand \oddpage@label [2]{}
 \citation{2016Wang}
 \citation{2017Zhao}
 \citation{2018Xie}
@@ -50,6 +51,7 @@
 \newlabel{U_m}{{5}{3}{问题描述与模型建立}{equation.2.5}{}}
 \newlabel{U_r}{{6}{4}{问题描述与模型建立}{equation.2.6}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {3}均衡求解}{4}{section.3}\protected@file@percent }
+\newlabel{iteration}{{10}{4}{均衡求解}{equation.3.10}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1}厂商的角度}{4}{subsection.3.1}\protected@file@percent }
 \newlabel{p_star}{{11}{4}{厂商的角度}{equation.3.11}{}}
 \newlabel{jacobi_1}{{14}{5}{厂商的角度}{equation.3.14}{}}
@@ -63,23 +65,30 @@
 \citation{2018Huang}
 \newlabel{w_star}{{19}{6}{经销商的角度}{equation.3.19}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {4}稳定性的数值分析}{6}{section.4}\protected@file@percent }
+\newlabel{lyapunov}{{20}{6}{稳定性的数值分析}{equation.4.20}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.1}讨论一：$k_w=k_p$情形下系统对$\lambda $的反馈}{6}{subsection.4.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces $(k_w,k_p,k_\theta ;\eta ,d)=(0.2,0.2,0.1,0.06,0.12)$对$\lambda $的分岔图和Lyapunov指数图\relax }}{7}{figure.caption.1}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{Hopf_Lyapunov_1_1}{{1}{7}{$(k_w,k_p,k_\theta ;\eta ,d)=(0.2,0.2,0.1,0.06,0.12)$对$\lambda $的分岔图和Lyapunov指数图\relax }{figure.caption.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}讨论二：$k_w=k_p$情形下系统对$\eta $的反馈}{7}{subsection.4.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces $(k_w,k_p,k_\lambda ;\eta ,d)=(0.2,0.2,0.1,0.79,0.12)$对$\eta $的分岔图和Lyapunov指数图\relax }}{8}{figure.caption.2}\protected@file@percent }
-\newlabel{Hopf_Lyapunov_2_1}{{2}{8}{$(k_w,k_p,k_\lambda ;\eta ,d)=(0.2,0.2,0.1,0.79,0.12)$对$\eta $的分岔图和Lyapunov指数图\relax }{figure.caption.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}讨论三：$k_w\neq  k_r$情形下系统对$\lambda , \eta $的反馈}{8}{subsection.4.3}\protected@file@percent }
+\newlabel{al}{{1}{7}{稳定性的数值分析}{algocf.1}{}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces The maximum of Lyapunov exponents and Hopf bifuracation maps\relax }}{7}{algocf.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces $(k_w,k_p,k_\theta ;\eta ,d)=(0.2,0.2,0.1,0.06,0.12)$对$\lambda $的分岔图和Lyapunov指数图\relax }}{8}{figure.caption.2}\protected@file@percent }
+\newlabel{Hopf_Lyapunov_1_1}{{1}{8}{$(k_w,k_p,k_\theta ;\eta ,d)=(0.2,0.2,0.1,0.06,0.12)$对$\lambda $的分岔图和Lyapunov指数图\relax }{figure.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces $\delta $邻域的放大分岔图\relax }}{8}{figure.caption.3}\protected@file@percent }
+\newlabel{Hopf_Lyapunov_1_2}{{2}{8}{$\delta $邻域的放大分岔图\relax }{figure.caption.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}讨论二：$k_w=k_p$情形下系统对$\eta $的反馈}{8}{subsection.4.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces $\lambda =0.780, 0.781$时的混沌程度显著升高\relax }}{9}{figure.caption.4}\protected@file@percent }
+\newlabel{attractor}{{3}{9}{$\lambda =0.780, 0.781$时的混沌程度显著升高\relax }{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces $(k_w,k_p,k_\lambda ;\eta ,d)=(0.2,0.2,0.1,0.79,0.12)$对$\eta $的分岔图和Lyapunov指数图\relax }}{9}{figure.caption.5}\protected@file@percent }
+\newlabel{Hopf_Lyapunov_2_1}{{4}{9}{$(k_w,k_p,k_\lambda ;\eta ,d)=(0.2,0.2,0.1,0.79,0.12)$对$\eta $的分岔图和Lyapunov指数图\relax }{figure.caption.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}讨论三：$k_w\neq  k_r$情形下系统对$\lambda , \eta $的反馈}{9}{subsection.4.3}\protected@file@percent }
 \bibcite{2005Beamon}{1}
 \bibcite{2009Wang}{2}
 \bibcite{2012Sheu}{3}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces $(k_w,k_p,k_\eta ;\eta ,d)=(0.2,0.2,0.1,0.1,0.12)$对$\lambda $的分岔图和Lyapunov指数图\relax }}{9}{figure.caption.3}\protected@file@percent }
-\newlabel{Hopf_Lyapunov_3_1}{{3}{9}{$(k_w,k_p,k_\eta ;\eta ,d)=(0.2,0.2,0.1,0.1,0.12)$对$\lambda $的分岔图和Lyapunov指数图\relax }{figure.caption.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces $(k_w,k_p,k_\lambda ;\eta ,d)=(0.2,0.2,0.1,0.04,0.12)$对$\eta $的分岔图和Lyapunov指数图\relax }}{9}{figure.caption.4}\protected@file@percent }
-\newlabel{Hopf_Lyapunov_3_2}{{4}{9}{$(k_w,k_p,k_\lambda ;\eta ,d)=(0.2,0.2,0.1,0.04,0.12)$对$\eta $的分岔图和Lyapunov指数图\relax }{figure.caption.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}结论}{9}{section.5}\protected@file@percent }
 \bibcite{2012Ghosh}{4}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces $(k_w,k_p,k_\eta ;\eta ,d)=(0.15,0.35,0.1,0.2,0.12)$对$\lambda $的分岔图和Lyapunov指数图\relax }}{10}{figure.caption.6}\protected@file@percent }
+\newlabel{Hopf_Lyapunov_3_1}{{5}{10}{$(k_w,k_p,k_\eta ;\eta ,d)=(0.15,0.35,0.1,0.2,0.12)$对$\lambda $的分岔图和Lyapunov指数图\relax }{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces $(k_w,k_p,k_\lambda ;\eta ,d)=(0.15,0.35,0.1,0.04,0.12)$对$\eta $的分岔图和Lyapunov指数图\relax }}{10}{figure.caption.7}\protected@file@percent }
+\newlabel{Hopf_Lyapunov_3_2}{{6}{10}{$(k_w,k_p,k_\lambda ;\eta ,d)=(0.15,0.35,0.1,0.04,0.12)$对$\eta $的分岔图和Lyapunov指数图\relax }{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}结论}{10}{section.5}\protected@file@percent }
 \bibcite{2015Zhang}{5}
 \bibcite{2016Wang}{6}
 \bibcite{2016Li}{7}

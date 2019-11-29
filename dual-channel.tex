@@ -25,6 +25,7 @@
 \usepackage{subfigure}
 \usepackage{mathrsfs}
 \usepackage{amsfonts}
+\usepackage[linesnumbered,boxed,ruled,commentsnumbered]{algorithm2e}
 \usetikzlibrary{arrows,shapes,chains}
 \setlength{\parindent}{2em}
 \setlength{\abovecaptionskip}{0cm}
@@ -95,7 +96,7 @@
     \frac{\partial U_r}{\partial p}(p;w,\theta)=\alpha-\beta (2p-w)+\lambda_r\theta
 \end{equation}
 \par 在实际博弈场景下，由于有限理性的约束，博弈双方只能在当前状态下做出能力范围内的调整，是的自己的收益向更优的方向发展。此时，假设博弈目标$p, w, \theta$相对应的每次调整能力固定为$k_p, k_w, k_\theta$，则可构建动态博弈模型，即时间离散的动力系统：
-\begin{equation}  
+\begin{equation}\label{iteration}
     \left\{  
         \begin{array}{lr}
             w(t+1)=w(t)+k_ww(t)[\alpha-\beta p(t)+\lambda_r\theta(t)]               \\  
@@ -184,41 +185,94 @@ w^*=\frac{2\lambda_r^2(\alpha-c)+2\epsilon^2\eta(\alpha+2c)}{\lambda_r^2-6\epsil
 \par 数值分析模拟动力系统演化模式是一种非常直观有效的工具。在本文所描述的系统中，我们重点关注外部影响，包括政府对绿色原料的补贴（$\eta$），以及对绿色产品的支持力度（$\lambda_r, \lambda_m$），对双方博弈路径的影响，以及其中可能产生的混沌现象。而我们研究的目标即为双方的博弈目标：批发价$w$，零售价$p$和绿色等级$\theta$。对动力系统混沌性的描述，我们采用了文献中普遍采用的二维分岔图，以及Lyapunov指数\cite{2017Tang}\cite{2018Zhang}\cite{2015Zhang}\cite{2018Huang}。除上述研究因素以外，我们不失一般性的对余下的参数预先赋值，简化模型计算成本，同时提出以下假设：
 \par \textbf{基本假设五：}在以下的模拟计算中，我们假设$\alpha=3, \beta=1, c=1$。我们认为绿色产品在直销渠道的吸引力较弱于经销渠道，假设这种差异为一个较小的常数（否则二者竞争差异过大，系统在很早的时候就会发生崩溃），即$\lambda_r=\lambda_m+d$，通过实验结果我们取$d=0.12$较为适中。
 \par 不同于现有论文基于Matlab计算的研究成果，我们设计开源了基于CUDA并发的数值模拟工具chaos-analysis (github.com/JoshuaWu1997/chaos-analysis.git)。基于该模拟过程高度相似的简单迭代，以及所需的样本数量庞大的特性，我们设计了利用GPU硬件的并发求解算法。该算法适用于广泛的多变量动力系统问题中，且对表达式的要求较低，可以扩展到大量复杂的问题中。以下的实验，我们模拟的规模达到了对参数区间进行1000次的划分，每个分割点进行20000-40000次随机初值的实验，每次实验进行3000次的迭代，保证实验能完整覆盖样本空间，同时迭代到均衡点。
-\par 我们同样也采用模拟的方式完成Lyapunov指数的计算。
+\par 我们同样也采用模拟的方式完成Lyapunov指数的计算。根据Lyapunov指数的定义，在初值足够小，迭代次数足够大的条件下，可利用其近似的逼近式来数值求解\ref{lyapunov}。该求解式提供了一种递推逼近Lyapunov指数的方式，并且避免了数值计算精度丢失问题导致的错误，见算法\ref{al}：
+\begin{equation}\label{lyapunov}
+    L=\lim_{n\rightarrow\infty}\frac{1}{n}\ln(\frac{|x_n-x^*_n|}{|x_0-x^*_0|})=\lim_{n\rightarrow\infty}\sum_{t=1}^{n}\frac{1}{n}\ln(\frac{|x_{t+1}-x^*_{t+1}|}{|x_t-x^*_t|})
+\end{equation}
+\IncMargin{1em}
+\begin{algorithm}
+    \SetAlgoNoLine
+    \SetKwInOut{Input}{\textbf{输入}}\SetKwInOut{Output}{\textbf{输出}}
+    \Input{
+        \\
+        The sample size of one observation point $S$\;\\
+        The set of observation points $\lambda$\;\\
+        The discrepency of initial points $\epsilon$\;\\
+        The parameter set $\eta, \alpha, \beta, c, d, k_w, k_p, k_\theta, n$\;\\}
+    \Output{
+        \\
+        $L := \{L^w,L^p,L^\theta\}$\;\\
+        $X := \{X^w,X^p,X^\theta\}$\;\\}
+    \BlankLine
+ 
+    Initialise the Lyapunov exponents $L$ uniformly with zero\; % 分号 \; 区分一行结束
+    Initialise the initial positions $X$ randomly\;
+    Initialise the a set of $\epsilon$ deviation positions $X^*=X+\epsilon$\;
+    \Repeat
+        {epochs $n$}
+        {
+            \For {each sample $x \in X$ and each sample $x^* \in X^*$}{
+                $\delta \leftarrow |x-x^*|$\;
+                Update $x,x^*$ with the rule defined in Eq.\ref{iteration}\;
+                $\delta^* \leftarrow |x-x^*|$\;
+                Update Lyapunov exponents with the rule defined in Eq.\ref{lyapunov}\;
+                $l\leftarrow l+\frac{1}{n\epsilon}ln(\frac{\delta^*}{\delta})$\;
+            }   
+        }
+    \For {each observation point $\lambda$}{
+        $(L^w,L^p,L^\theta)=(\max\{l^w\},\max\{l^p\},\max\{l^\theta\})$
+    }
+    \caption{The maximum of Lyapunov exponents and Hopf bifuracation maps\label{al}}
+\end{algorithm}
+\DecMargin{1em}
+
 \par 基于以上的数值分析算法，我们对前文的模型进行以下几个角度的讨论和分析，同时结合实际现象和经济学知识对所发现的数学规律进行解释，从而对于一系列现实问题提出一种角度的诠释。
 \subsection{讨论一：$k_w=k_p$情形下系统对$\lambda$的反馈}
 \par 在$k_w=k_p=0.2$条件下，我们可以认为厂商和经销商价格调控能力是完全相同的。由于对于绿色等级的改变，可能涉及到供应链和生产模式的改变，所以系数$k_\theta=0.1$为一个较慢的迭代速率。在此前提下，我们研究博弈结果对绿色参数$\eta, \lambda$的反应。首先，我们固定了$(\eta,d)=(0.06,0.12)$，通过参数$\lambda\in(0,0.1)$的模拟，得出分岔图和Lyapunov指数图\ref{Hopf_Lyapunov_1_1}：
-\begin{figure}[H]
+\begin{figure}[htp]
     \centering
     \includegraphics[width=16.5cm]{Hopf_Lyapunov_1_1.png}
     \caption{$(k_w,k_p,k_\theta;\eta,d)=(0.2,0.2,0.1,0.06,0.12)$对$\lambda$的分岔图和Lyapunov指数图}
     \label{Hopf_Lyapunov_1_1}
 \end{figure}
-\par 从图中可以看出，在价格调控能力相同，且处于本文假设的规模较小的市场中（只存在单一厂商和经销商），厂商开发出的直销渠道在竞争中具有绝对优势。在$\lambda\in(0,0.063)$（区间1），双方博弈处于稳定状态，然而达到均衡点时$w=p$，即经销商无利可图。这也解释了在一些规模较小的，且直销入市门槛不高的市场，电商模式代理的厂家直销可以在短时间内取代经销商的地位，从而抢得全部的市场份额。区间1中，由于绿色产品的受欢迎系数不断增大（包括政府倡导力度的作用），博弈均衡趋向于厂商提高绿色产品等级，为商品赋予更加大的附加值，同时乘机抬高价格。从$\lambda=0.063$时，系统出现二分叉，之后在$\lambda=0.079$时，出现了最大Lyapunov指数突变升高，系统在该点附近很小的领域陷入随机平衡，之后系统恢复混沌程度渐进地上升。我们对该区域的现象解释为：厂商凭借技术优势创造的红利在此处消失，即由于技术创新的难度呈二次项递增（基于假设三），无法达到线性的需求增长。厂商此后最大化利益的最有效手段仍然是抢占对手——经销商的市场，使得自己保持较高的销量。同理，在$\delta$领域处，经销商重新拥有了议价能力，从而重新获得利润。
+\par 从图中可以看出，在价格调控能力相同，且处于本文假设的规模较小的市场中（只存在单一厂商和经销商），厂商开发出的直销渠道在竞争中具有绝对优势。在$\lambda\in(0,0.063)$（区间1），双方博弈处于稳定状态，然而达到均衡点时$w=p$，即经销商无利可图。这也解释了在一些规模较小的，且直销入市门槛不高的市场，电商模式代理的厂家直销可以在短时间内取代经销商的地位，从而抢得全部的市场份额。区间1中，由于绿色产品的受欢迎系数不断增大（包括政府倡导力度的作用），博弈均衡趋向于厂商提高绿色产品等级，为商品赋予更加大的附加值，同时乘机抬高价格。从$\lambda=0.063$时，系统出现二分叉，之后在$\lambda=0.079$时，出现了最大Lyapunov指数突变升高，系统在该点附近很小的领域陷入混沌，之后系统混沌程度渐进地上升，见图\ref{Hopf_Lyapunov_1_2}，\ref{attractor}。
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=16.5cm]{Hopf_Lyapunov_1_2.png}
+    \caption{$\delta$邻域的放大分岔图}
+    \label{Hopf_Lyapunov_1_2}
+\end{figure}
+\par 我们对该区域的现象解释为：厂商凭借技术优势创造的红利在此处消失，即由于技术创新的难度呈二次项递增（基于假设三），无法达到线性的需求增长。厂商此后最大化利益的最有效手段仍然是抢占对手——经销商的市场，使得自己保持较高的销量。同理，在$\delta$领域处，经销商重新拥有了议价能力，从而重新获得利润。
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=16.5cm]{attractor.png}
+    \caption{$\lambda=0.780, 0.781$时的混沌程度显著升高}
+    \label{attractor}
+\end{figure}
 \subsection{讨论二：$k_w=k_p$情形下系统对$\eta$的反馈}
 \par 此时我们固定了$(\lambda,d)=(0.79,0.12)$，即讨论二中平衡点，通过参数$\eta\in(0,0.08)$的模拟，得出分岔图和Lyapunov指数图\ref{Hopf_Lyapunov_2_1}：
-\begin{figure}[H]
+\begin{figure}[htp]
     \centering
     \includegraphics[width=16.5cm]{Hopf_Lyapunov_2_1.png}
     \caption{$(k_w,k_p,k_\lambda;\eta,d)=(0.2,0.2,0.1,0.79,0.12)$对$\eta$的分岔图和Lyapunov指数图}
     \label{Hopf_Lyapunov_2_1}
 \end{figure}
-\par 从图中我们可以总结出与讨论一相类似的结论，绿色成本系数$\eta$对价格博弈的本质性影响与系数$\lambda$相似，然而影响力更加强烈，表现在$\theta$的变化率较大。综合讨论一，我们可以知道，对于政府而言，无论是价格补贴手段（增大$\lambda$）还是生产补贴（降低$\eta$），从本文模型模拟结果来看，都存在使得系统复杂度增大，直至超过某一限度使得系统陷入混沌，即市场进入无序竞争的模式的影响。从另一角度观察，这一类的补贴手段有助于促进产业链总体向绿色的方向发展。$\delta$邻域突变现象出现的双方竞争，在许多情形下形成现实意义中的价格战，即均衡点远低于原先水平，然而通过一个狭小的$\delta$邻域后恢复。该点发生的现象，可以作为解释所谓“O2O线上线下”价格战的机理之一。同时，同质与本文所讨论的所谓绿色供应链模型，许多创新型产品，特别是依赖于产品附加值的商品线上线下供应链所面临的调整，也可被本文所提出的解释模型所部分解答。
+\par 从图中我们可以总结出与讨论一相类似的结论，绿色成本系数$\eta$对价格博弈的本质性影响与系数$\lambda$相似，然而影响力更加强烈，表现在$\theta$的变化率较大。综合讨论一，我们可以知道，对于政府而言，无论是价格补贴手段（增大$\lambda$）还是生产补贴（降低$\eta$），从本文模型模拟结果来看，都存在使得系统复杂度增大，直至超过某一限度使得系统陷入混沌，即市场进入无序竞争的模式的影响。从另一角度观察，这一类的补贴手段有助于促进产业链总体向绿色的方向发展。$\delta$邻域突变现象出现的双方竞争，在许多情形下形成现实意义中的价格战，即均衡点远低于原先水平，进入一个狭小的$\delta$邻域后大部分博弈结果都趋近于极端情况，即绝大部分竞争者出场。该点发生的现象，可以作为解释所谓“O2O线上线下”价格战的机理之一。同时，同质与本文所讨论的所谓绿色供应链模型，许多创新型产品，特别是依赖于产品附加值的商品线上线下供应链所面临的调整，也可被本文所提出的解释模型所部分解答。
 \subsection{讨论三：$k_w\neq k_r$情形下系统对$\lambda, \eta$的反馈}
 \par 由讨论一和讨论二已知在博弈双方对价格的调控能力相同时，厂商具有绝对的优势取代其代理商。然而，在现实情境下，由于经销商更加贴近顾客，且其固有成本较低，导致其更加有能力快速调整价格策略。在讨论三中，我们考虑以下假设：
 \par \textbf{基本假设六：}假设经销商调整市场价格的能力大于厂商调整批发价的能力$(k_w, k_p, k_\theta)=(0.15,0.35,0.1)$。
 \par 在此假设下，我们首先固定$\eta=0.2$，得出$\lambda\in(0.01,0.1)$的分岔图和Lyapunov指数图\ref{Hopf_Lyapunov_3_1}：
-\begin{figure}[H]
+\begin{figure}[htp]
     \centering
     \includegraphics[width=16.5cm]{Hopf_Lyapunov_3_1.png}
-    \caption{$(k_w,k_p,k_\eta;\eta,d)=(0.2,0.2,0.1,0.1,0.12)$对$\lambda$的分岔图和Lyapunov指数图}
+    \caption{$(k_w,k_p,k_\eta;\eta,d)=(0.15,0.35,0.1,0.2,0.12)$对$\lambda$的分岔图和Lyapunov指数图}
     \label{Hopf_Lyapunov_3_1}
 \end{figure}
 \par 同时在$\lambda=0.04$固定时，我们得出$\eta\in(0.1, 0.5)$时的分岔图和Lyapunov指数图\ref{Hopf_Lyapunov_3_2}：
-\begin{figure}[H]
+\begin{figure}[htp]
     \centering
     \includegraphics[width=16.5cm]{Hopf_Lyapunov_3_2.png}
-    \caption{$(k_w,k_p,k_\lambda;\eta,d)=(0.2,0.2,0.1,0.04,0.12)$对$\eta$的分岔图和Lyapunov指数图}
+    \caption{$(k_w,k_p,k_\lambda;\eta,d)=(0.15,0.35,0.1,0.04,0.12)$对$\eta$的分岔图和Lyapunov指数图}
     \label{Hopf_Lyapunov_3_2}
 \end{figure}
 \par 对比二者结果，我们发现，在绿色供应链初期，厂商依然垄断着市场，令零售商理论上失去了生存空间。然而，当产业链的绿色化程度逐渐加大，厂商由于承担着生产该类产品的职责，即需要投入更多的固定成本，这使得厂商实际上议价的能力减弱。图\ref{Hopf_Lyapunov_1_1}中$\lambda=0.2$，图\ref{Hopf_Lyapunov_3_2}中$\eta=0.28$这两点都出现分岔，并且分岔之后市场价高出批发价，对于零售商来说增加了利润空间。然而，此时也正是系统混沌性骤升的时刻。从Lyapunov指数图中分析，零售商所依赖的市场价格$p$的Lyapunov指数持续增加，且大于批发价格$w$。这说明了，虽然零售商此后有利可图，但是其实际风险却大于厂商。
