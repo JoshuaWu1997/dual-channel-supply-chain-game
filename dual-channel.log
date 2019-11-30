@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2019.11.29)  30 NOV 2019 03:39
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2019.11.29)  1 DEC 2019 00:07
 entering extended mode
 **c:/Users/lenovo/Documents/Academic/Game_theory/Thesis/dual-channel.tex
 (c:/Users/lenovo/Documents/Academic/Game_theory/Thesis/dual-channel.tex
@@ -2005,8 +2005,8 @@ File: Hopf_Lyapunov_1_1.png Graphic file (type bmp)
 [6]
 File: Hopf_Lyapunov_1_2.png Graphic file (type bmp)
 <Hopf_Lyapunov_1_2.png>
-File: attractor.png Graphic file (type bmp)
-<attractor.png>
+File: Hopf_Lyapunov_1_3.png Graphic file (type bmp)
+<Hopf_Lyapunov_1_3.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2093,30 +2093,32 @@ File: Hopf_Lyapunov_3_1.png Graphic file (type bmp)
 <Hopf_Lyapunov_3_1.png>
 File: Hopf_Lyapunov_3_2.png Graphic file (type bmp)
 <Hopf_Lyapunov_3_2.png>
-[9] [10]
-Underfull \hbox (badness 6157) in paragraph at lines 299--300
+File: Hopf_Lyapunov_3_3.png Graphic file (type bmp)
+<Hopf_Lyapunov_3_3.png>
+[9] [10] [11]
+Underfull \hbox (badness 6157) in paragraph at lines 311--312
 []\T1/ppl/m/n/10.53937 Mohammadreza Sinayi, Morteza Rasti-Barzoki, A game the-o
 -retic ap-proach for pric-
  []
 
 
-Underfull \hbox (badness 2020) in paragraph at lines 299--300
+Underfull \hbox (badness 2020) in paragraph at lines 311--312
 \T1/ppl/m/n/10.53937 ing, green-ing, and so-cial wel-fare poli-cies in a sup-pl
 y chain with gov-ern-ment in-ter-ven-
  []
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 299--300
+Underfull \hbox (badness 2318) in paragraph at lines 311--312
 \T1/ppl/m/n/10.53937 tion, \T1/ppl/m/it/10.53937 Jour-nal of Cleaner Pro-duc-ti
 on\T1/ppl/m/n/10.53937 , Vol-ume 196, 2018, Pages 1443-1458, ISSN 0959-6526,
  []
 
-[11] [12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 310.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 310.
+[12] [13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 322.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 322.
  (dual-channel.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 310.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 310.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 322.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 322.
 Package rerunfilecheck Info: File `dual-channel.out' has not changed.
 (rerunfilecheck)             Checksum: 905D6AB84735E1301136FA7600EF6773.
 
@@ -2127,15 +2129,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 310.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 322.
  ) 
 Here is how much of TeX's memory you used:
- 42031 strings out of 427240
- 873612 string characters out of 3145703
- 1103406 words of memory out of 3000000
- 45931 multiletter control sequences out of 15000+200000
+ 42040 strings out of 427240
+ 873843 string characters out of 3145703
+ 1103578 words of memory out of 3000000
+ 45939 multiletter control sequences out of 15000+200000
  554634 words of font info for 80 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,16n,71p,875b,578s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on dual-channel.pdf (12 pages).
+Output written on dual-channel.pdf (13 pages).
