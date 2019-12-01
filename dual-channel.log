@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2019.11.29)  1 DEC 2019 00:07
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2019.11.29)  1 DEC 2019 18:56
 entering extended mode
 **c:/Users/lenovo/Documents/Academic/Game_theory/Thesis/dual-channel.tex
 (c:/Users/lenovo/Documents/Academic/Game_theory/Thesis/dual-channel.tex
@@ -1939,16 +1939,6 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10.53937> not available
 
 
 ]
-LaTeX Font Info:    Trying to load font information for OMS+ppl on input line 5
-6.
- ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\omsppl.fd"
-File: omsppl.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.53937> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 Package microtype Info: Character `textendash ' is missing
 (microtype)             in font `TU/SimSun(0)/m/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1968,121 +1958,126 @@ Package microtype Info: Character `textquotedblright ' is missing
 (microtype)             in font `TU/SimSun(0)/m/n/10'.
 (microtype)             Ignoring protrusion settings for this character.
  [2]
-[3] [4] [5]
+LaTeX Font Info:    Trying to load font information for OMS+ppl on input line 5
+7.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\omsppl.fd"
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.53937> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
+ [3] [4]
+[5] [6]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <7.52812> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 208.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 209.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 230.
+(hyperref)                removing `math shift' on input line 231.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 230.
+(hyperref)                removing `subscript' on input line 231.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 230.
+(hyperref)                removing `subscript' on input line 231.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 230.
+(hyperref)                removing `math shift' on input line 231.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 230.
+(hyperref)                removing `math shift' on input line 231.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lambda' on input line 230.
+(hyperref)                removing `\lambda' on input line 231.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 230.
+(hyperref)                removing `math shift' on input line 231.
 
 File: Hopf_Lyapunov_1_1.png Graphic file (type bmp)
 <Hopf_Lyapunov_1_1.png>
-[6]
+[7]
 File: Hopf_Lyapunov_1_2.png Graphic file (type bmp)
 <Hopf_Lyapunov_1_2.png>
 File: Hopf_Lyapunov_1_3.png Graphic file (type bmp)
 <Hopf_Lyapunov_1_3.png>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 252.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 252.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 252.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 252.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 252.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\eta' on input line 252.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 252.
-
-File: Hopf_Lyapunov_2_1.png Graphic file (type bmp)
-<Hopf_Lyapunov_2_1.png>
-
-Underfull \vbox (badness 5119) has occurred while \output is active []
+Underfull \vbox (badness 2556) has occurred while \output is active []
 
  [8]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 261.
+(hyperref)                removing `math shift' on input line 253.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 261.
+(hyperref)                removing `subscript' on input line 253.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\not' on input line 261.
+(hyperref)                removing `subscript' on input line 253.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 261.
+(hyperref)                removing `math shift' on input line 253.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 261.
+(hyperref)                removing `math shift' on input line 253.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 261.
+(hyperref)                removing `\eta' on input line 253.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lambda' on input line 261.
+(hyperref)                removing `math shift' on input line 253.
+
+File: Hopf_Lyapunov_2_1.png Graphic file (type bmp)
+<Hopf_Lyapunov_2_1.png>
+[9]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 262.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\eta' on input line 261.
+(hyperref)                removing `subscript' on input line 262.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 261.
+(hyperref)                removing `\not' on input line 262.
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 263--264
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 262.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 262.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 262.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\lambda' on input line 262.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\eta' on input line 262.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 262.
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 264--265
 []\TU/SimSun(0)/bx/n/10.53937 基 本 假 设 六：|  \TU/SimSun(0)/m/n/10.53937 假 设 经 销 商
  调 整 市 场 价 格 的 能 力 大 于 厂 商 调 整 批 发 价 的 能 力 $\OT1/zplm/m/n/10.53937 (\OML/zplm/m
 /it/10.53937 k[]\OT1/ppl/m/n/10.53937 , \OML/zplm/m/it/10.53937 k[]\OT1/ppl/m/n
@@ -2095,30 +2090,30 @@ File: Hopf_Lyapunov_3_2.png Graphic file (type bmp)
 <Hopf_Lyapunov_3_2.png>
 File: Hopf_Lyapunov_3_3.png Graphic file (type bmp)
 <Hopf_Lyapunov_3_3.png>
-[9] [10] [11]
-Underfull \hbox (badness 6157) in paragraph at lines 311--312
+[10] [11] [12]
+Underfull \hbox (badness 6157) in paragraph at lines 313--314
 []\T1/ppl/m/n/10.53937 Mohammadreza Sinayi, Morteza Rasti-Barzoki, A game the-o
 -retic ap-proach for pric-
  []
 
 
-Underfull \hbox (badness 2020) in paragraph at lines 311--312
+Underfull \hbox (badness 2020) in paragraph at lines 313--314
 \T1/ppl/m/n/10.53937 ing, green-ing, and so-cial wel-fare poli-cies in a sup-pl
 y chain with gov-ern-ment in-ter-ven-
  []
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 311--312
+Underfull \hbox (badness 2318) in paragraph at lines 313--314
 \T1/ppl/m/n/10.53937 tion, \T1/ppl/m/it/10.53937 Jour-nal of Cleaner Pro-duc-ti
 on\T1/ppl/m/n/10.53937 , Vol-ume 196, 2018, Pages 1443-1458, ISSN 0959-6526,
  []
 
-[12] [13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 322.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 322.
+[13] [14]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 325.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 325.
  (dual-channel.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 322.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 322.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 325.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 325.
 Package rerunfilecheck Info: File `dual-channel.out' has not changed.
 (rerunfilecheck)             Checksum: 905D6AB84735E1301136FA7600EF6773.
 
@@ -2129,15 +2124,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 322.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 325.
  ) 
 Here is how much of TeX's memory you used:
- 42040 strings out of 427240
- 873843 string characters out of 3145703
- 1103578 words of memory out of 3000000
- 45939 multiletter control sequences out of 15000+200000
+ 42010 strings out of 427240
+ 871607 string characters out of 3145703
+ 1102677 words of memory out of 3000000
+ 45909 multiletter control sequences out of 15000+200000
  554634 words of font info for 80 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,16n,71p,875b,578s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,16n,71p,955b,578s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on dual-channel.pdf (13 pages).
+Output written on dual-channel.pdf (14 pages).
